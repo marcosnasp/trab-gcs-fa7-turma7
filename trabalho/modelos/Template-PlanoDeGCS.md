@@ -2,33 +2,29 @@ Projeto Detran
 =================
 Plano de Gerenciamento de Configuração
 ======================================
-Versão &lt;1.0&gt;
+Versão 1.0
 ------------------
 
 _[Observação: O template a seguir é fornecido para uso com o Rational Unified Process (RUP).  O texto exibido entre colchetes e em itálico foi incluído para orientar o autor e deve ser excluído antes da publicação do documento._
 
-_Este documento utiliza a formatação da linguagem [Markdown] (http://daringfireball.net/projects/markdown/). Você pode encontrar um guia de referência rápido [aqui] (https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).]_
 
 Histórico de Versões
 --------------------
 
 |Data                |Versão       |Descrição               |Autor          |
 |--------------------|-------------|------------------------|---------------|
-|_&lt;dd/mm/aaaa&gt;_|_&lt;1.0&gt;_|_&lt;Versão inicial&gt;_|_&lt;autor&gt;_|
-|_&lt;dd/mm/aaaa&gt;_|_&lt;1.1&gt;_|_&lt;Outra versão&gt;_  |_&lt;autor&gt;_|
+|25/11/2013|1.0|Versão inicial|Luis Renné| 
 
 
 
 1. Introdução
 ==============
 
-_[A introdução do Plano de Gerenciamento de Configuração  oferece uma visão geral de todo o documento. 
-Ela inclui a finalidade, o escopo, as definições, os acrônimos, as abreviações, as referências e uma visão geral deste
-Plano de Gerenciamento de Configuração.]_
-
 1.1 Finalidade
 ---------------
-_[Especifique a finalidade deste Plano de Gerenciamento de Configuração.]_
+Este plano tem como finalidade documentar e definir o controle de mudanças sobre os itens de configuração do projeto Detran. Define padrões, procedimentos, atividades e seus responsáveis, bem como os itens de configuração a serem controlados e as ferramentas a serem utilizadas. 
+
+    
 
 1.2 Escopo
 ----------
