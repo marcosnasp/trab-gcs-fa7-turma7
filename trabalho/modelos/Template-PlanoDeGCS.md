@@ -1,4 +1,4 @@
-<Nome do Projeto>
+Projeto Detran
 =================
 Plano de Gerenciamento de Configuração
 ======================================
