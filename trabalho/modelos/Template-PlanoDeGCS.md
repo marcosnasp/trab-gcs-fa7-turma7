@@ -5,8 +5,6 @@ Plano de Gerenciamento de Configuração
 Versão 1.0
 ------------------
 
-_[Observação: O template a seguir é fornecido para uso com o Rational Unified Process (RUP).  O texto exibido entre colchetes e em itálico foi incluído para orientar o autor e deve ser excluído antes da publicação do documento._
-
 
 Histórico de Versões
 --------------------
@@ -21,18 +19,27 @@ Histórico de Versões
 ==============
 
 1.1 Finalidade
----------------
-Este plano tem como finalidade documentar e definir o controle de mudanças sobre os itens de configuração do projeto Detran. Define padrões, procedimentos, atividades e seus responsáveis, bem como os itens de configuração a serem controlados e as ferramentas a serem utilizadas. 
+---------------	
+Este documento tem como finalidade definir padrões, procedimentos, atividades e seus responsáveis, bem como os itens de configuração a serem controlados e as ferramentas a serem utilizadas no gerenciamento de configuração. 
 
-    
+
 
 1.2 Escopo
 ----------
-_[Uma breve descrição do escopo deste Plano de Gerenciamento de Configuração; o modelo ao qual ele está associado e tudo o que é afetado ou influenciado por este documento.]_
+Este documento se aplica ao projeto Detran e afeta os itens de configuração gerados
+pela equipe do projeto, tais como os requisitos, casos de uso, diagramas, arquivos de código-fonte, modelos de dados, casos de teste e manuais.
+
+
 
 1.3 Definições, Acrônimos e Abreviações
 ---------------------------------------
 _[Esta subseção apresenta as definições de todos os termos, acrônimos e abreviações necessários para a correta interpretação do Plano de Gerenciamento de Configuração.  Essas informações podem ser fornecidas mediante referência ao Glossário do projeto.]_
+
+|Termo               |Descrição    |
+|--------------------|-------------|
+|Baseline|conjunto de itens de configuração em um determinado momento do processo de  desenvolvimento|  
+
+
 
 1.4 Referências
 ---------------
