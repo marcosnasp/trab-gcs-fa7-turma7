@@ -77,6 +77,11 @@ A seção 6 descreve o cronograma das auditorias de configuração e o que será
 ------------------------------------------------
 _[Descreva quem será o responsável pela execução das diversas atividades de Gerenciamento de Configuração (CM) descritas no Processo de CM.]_
 
+|Papéis              |Equipe       |Responsabilidade        |
+|--------------------|-------------|------------------------|
+|(GC) Gerente de COnfiguração|Marcos Portela<p>Luis Renne|Escrever o plano de Gerencia de CM|
+
+
 
 
 
