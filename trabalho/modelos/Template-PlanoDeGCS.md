@@ -11,7 +11,9 @@ Histórico de Versões
 
 |Data                |Versão       |Descrição               |Autor          |
 |--------------------|-------------|------------------------|---------------|
-|25/11/2013|1.0|Versão inicial|Luis Renné|  
+|25/11/2013|1.0|Versão inicial|Luis Renné|
+|26/11/2013|1.1|Seção 1 finalizada|Luis Renné|
+  
 
 
 
@@ -33,21 +35,38 @@ pela equipe do projeto, tais como os requisitos, casos de uso, diagramas, arquiv
 
 1.3 Definições, Acrônimos e Abreviações
 ---------------------------------------
-_[Esta subseção apresenta as definições de todos os termos, acrônimos e abreviações necessários para a correta interpretação do Plano de Gerenciamento de Configuração.  Essas informações podem ser fornecidas mediante referência ao Glossário do projeto.]_
-
 |Termo               |Descrição    |
 |--------------------|-------------|
-|Baseline|conjunto de itens de configuração em um determinado momento do processo de  desenvolvimento|  
+|Baseline|Conjunto de itens de configuração em um determinado momento do processo de  desenvolvimento|
+|GC|Gerente de configuração|
+|SCM|Sistema de controle de mudanças|
+|CM|Gerenciamento de Configuração|
+|Release| Uma versão distribuída ao cliente|
+|Repositório|Local onde serão armazenados os itens de configuração|
+|SM|Solicitação de mudanças|
+|CCB|Comitê de Controle da Configuração|
 
 
 
 1.4 Referências
 ---------------
-_[Esta subseção apresenta uma lista completa de todos os documentos mencionados no Plano de Gerenciamento de Configuração. Identifique os documentos por título, número de relatório (se aplicável), data e organização responsável pela publicação. Especifique as fontes a partir das quais as referências podem ser obtidas. Essas informações podem ser fornecidas por um anexo ou outro documento.]_
+Não se aplica.
+
+
 
 1.5 Visão Geral
 ---------------
-_[Esta subseção descreve o conteúdo restante do Plano de Gerenciamento de Configuração e explica como o documento está organizado.]_
+Este documento está organizado em seções. <p> A seção 1 oferece uma visão geral de todo o documento. Ela inclui a finalidade, o escopo, as definições, os acrônimos, as abreviações, as referências e uma visão geral deste Plano de Gerenciamento de Configuração.<p> 
+
+A seção 2 descreve quem será o responsável pela execução das diversas atividades de CM, as ferramentas e os procedimentos necessários para o controle de versão dos itens de configuração gerados no ciclo de vida do projeto.<p>  
+
+A seção 3  descreve como os itens de configuração devem ser identificados, as Baselines do projeto,a estrutura do repositório e a organização dos itens dentro do repositório.<p>
+
+A seção 4 define os padrões e procedimentos que devem ser seguidos no projeto.<p>
+
+A seção 5 descreve as ferramentas de software, o pessoal e o treinamento necessários para implementar as atividades de CM especificadas.<p> 
+
+A seção 6 descreve o cronograma das auditorias de configuração e o que será verificado. Também informa como serão reportados os problemas encontrados e como será feito o acompanhamento das correções.
 
 
 
@@ -57,6 +76,9 @@ _[Esta subseção descreve o conteúdo restante do Plano de Gerenciamento de Con
 2.1 Organização, Responsabilidades e Interfaces
 ------------------------------------------------
 _[Descreva quem será o responsável pela execução das diversas atividades de Gerenciamento de Configuração (CM) descritas no Processo de CM.]_
+
+
+
 
 2.2 Ferramentas, Ambiente e Infra-estrutura
 -------------------------------------------
