@@ -1,72 +1,50 @@
-Projeto Detran
+<Nome do Projeto>
 =================
 Plano de Gerenciamento de Configuração
 ======================================
-Versão 1.0
+Versão &lt;1.0&gt;
 ------------------
 
+_[Observação: O template a seguir é fornecido para uso com o Rational Unified Process (RUP).  O texto exibido entre colchetes e em itálico foi incluído para orientar o autor e deve ser excluído antes da publicação do documento._
+
+_Este documento utiliza a formatação da linguagem [Markdown] (http://daringfireball.net/projects/markdown/). Você pode encontrar um guia de referência rápido [aqui] (https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).]_
 
 Histórico de Versões
 --------------------
 
 |Data                |Versão       |Descrição               |Autor          |
 |--------------------|-------------|------------------------|---------------|
-|25/11/2013|1.0|Versão inicial|Luis Renné|
-|26/11/2013|1.1|Seção 1 finalizada|Luis Renné|
-  
+|_&lt;dd/mm/aaaa&gt;_|_&lt;1.0&gt;_|_&lt;Versão inicial&gt;_|_&lt;autor&gt;_|
+|_&lt;dd/mm/aaaa&gt;_|_&lt;1.1&gt;_|_&lt;Outra versão&gt;_  |_&lt;autor&gt;_|
 
 
 
 1. Introdução
 ==============
 
+_[A introdução do Plano de Gerenciamento de Configuração  oferece uma visão geral de todo o documento. 
+Ela inclui a finalidade, o escopo, as definições, os acrônimos, as abreviações, as referências e uma visão geral deste
+Plano de Gerenciamento de Configuração.]_
+
 1.1 Finalidade
----------------	
-Este documento tem como finalidade definir padrões, procedimentos, atividades e seus responsáveis, bem como os itens de configuração a serem controlados e as ferramentas a serem utilizadas no gerenciamento de configuração. 
-
-
+---------------
+_[Especifique a finalidade deste Plano de Gerenciamento de Configuração.]_
 
 1.2 Escopo
 ----------
-Este documento se aplica ao projeto Detran e afeta os itens de configuração gerados
-pela equipe do projeto, tais como os requisitos, casos de uso, diagramas, arquivos de código-fonte, modelos de dados, casos de teste e manuais.
-
-
+_[Uma breve descrição do escopo deste Plano de Gerenciamento de Configuração; o modelo ao qual ele está associado e tudo o que é afetado ou influenciado por este documento.]_
 
 1.3 Definições, Acrônimos e Abreviações
 ---------------------------------------
-|Termo               |Descrição    |
-|--------------------|-------------|
-|Baseline|Conjunto de itens de configuração em um determinado momento do processo de  desenvolvimento|
-|GC|Gerente de configuração|
-|SCM|Sistema de controle de mudanças|
-|CM|Gerenciamento de Configuração|
-|Release| Uma versão distribuída ao cliente|
-|Repositório|Local onde serão armazenados os itens de configuração|
-|SM|Solicitação de mudanças|
-|CCB|Comitê de Controle da Configuração|
-
-
+_[Esta subseção apresenta as definições de todos os termos, acrônimos e abreviações necessários para a correta interpretação do Plano de Gerenciamento de Configuração.  Essas informações podem ser fornecidas mediante referência ao Glossário do projeto.]_
 
 1.4 Referências
 ---------------
-Não se aplica.
-
-
+_[Esta subseção apresenta uma lista completa de todos os documentos mencionados no Plano de Gerenciamento de Configuração. Identifique os documentos por título, número de relatório (se aplicável), data e organização responsável pela publicação. Especifique as fontes a partir das quais as referências podem ser obtidas. Essas informações podem ser fornecidas por um anexo ou outro documento.]_
 
 1.5 Visão Geral
 ---------------
-Este documento está organizado em seções. <p> A seção 1 oferece uma visão geral de todo o documento. Ela inclui a finalidade, o escopo, as definições, os acrônimos, as abreviações, as referências e uma visão geral deste Plano de Gerenciamento de Configuração.<p> 
-
-A seção 2 descreve quem será o responsável pela execução das diversas atividades de CM, as ferramentas e os procedimentos necessários para o controle de versão dos itens de configuração gerados no ciclo de vida do projeto.<p>  
-
-A seção 3  descreve como os itens de configuração devem ser identificados, as Baselines do projeto,a estrutura do repositório e a organização dos itens dentro do repositório.<p>
-
-A seção 4 define os padrões e procedimentos que devem ser seguidos no projeto.<p>
-
-A seção 5 descreve as ferramentas de software, o pessoal e o treinamento necessários para implementar as atividades de CM especificadas.<p> 
-
-A seção 6 descreve o cronograma das auditorias de configuração e o que será verificado. Também informa como serão reportados os problemas encontrados e como será feito o acompanhamento das correções.
+_[Esta subseção descreve o conteúdo restante do Plano de Gerenciamento de Configuração e explica como o documento está organizado.]_
 
 
 
@@ -76,14 +54,6 @@ A seção 6 descreve o cronograma das auditorias de configuração e o que será
 2.1 Organização, Responsabilidades e Interfaces
 ------------------------------------------------
 _[Descreva quem será o responsável pela execução das diversas atividades de Gerenciamento de Configuração (CM) descritas no Processo de CM.]_
-
-|Papéis              |Equipe       |Responsabilidade        |
-|--------------------|-------------|------------------------|
-|(GC) Gerente de COnfiguração|Marcos Portela<p>Luis Renne|Escrever o plano de Gerencia de CM|
-
-
-
-
 
 2.2 Ferramentas, Ambiente e Infra-estrutura
 -------------------------------------------
