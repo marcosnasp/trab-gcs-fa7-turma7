@@ -40,7 +40,6 @@ pela equipe do projeto, tais como os requisitos, casos de uso, diagramas, arquiv
 |Baseline|Conjunto de itens de configuração em um determinado momento do processo de  desenvolvimento|
 |GC|Gerente de configuração|
 |SCM|Sistema de controle de mudanças|
-|CM|Gerenciamento de Configuração|
 |Release| Uma versão distribuída ao cliente|
 |Repositório|Local onde serão armazenados os itens de configuração|
 |SM|Solicitação de mudanças|
@@ -79,7 +78,9 @@ _[Descreva quem será o responsável pela execução das diversas atividades de 
 
 |Papéis              |Equipe       |Responsabilidade        |
 |--------------------|-------------|------------------------|
-|(GC) Gerente de Configuração|Marcos Portela<p>Luis Renne|Escrever o plano de Gerencia de CM|
+|Gerente de Configuração|Marcos Portela|Escrever o plano de Gerencia de Configuração<br>Configurar ambiente de Gerência de Configuração<br>Criar Baselines|
+|CCB|Luís Renné<br>Elias de Oliveira|Definir os processos de controle de mudanças<br>Aprovar ou rejeitar solicitações de alterações|
+|Desenvolvedor|Marcos Portela<br>Luís Renné<br>Elias de Oliveira|Seguir os padrões e procedimentos definidos no plano de Gerência de Configuração|
 
 
 
