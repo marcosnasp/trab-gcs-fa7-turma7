@@ -79,7 +79,7 @@ _[Descreva quem será o responsável pela execução das diversas atividades de 
 
 |Papéis              |Equipe       |Responsabilidade        |
 |--------------------|-------------|------------------------|
-|(GC) Gerente de COnfiguração|Marcos Portela<p>Luis Renne|Escrever o plano de Gerencia de CM|
+|(GC) Gerente de Configuração|Marcos Portela<p>Luis Renne|Escrever o plano de Gerencia de CM|
 
 
 
