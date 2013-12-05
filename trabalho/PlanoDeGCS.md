@@ -13,7 +13,7 @@ Histórico de Versões
 |--------------------|-------------|------------------------|---------------|
 |25/11/2013|1.0|Versão inicial|Luis Renné|
 |26/11/2013|1.1|Seção 1 finalizada|Luis Renné|
-  
+
 
 
 
@@ -21,8 +21,8 @@ Histórico de Versões
 ==============
 
 1.1 Finalidade
----------------	
-Este documento tem como finalidade definir padrões, procedimentos, atividades e seus responsáveis, bem como os itens de configuração a serem controlados e as ferramentas a serem utilizadas no gerenciamento de configuração. 
+---------------
+Este documento tem como finalidade definir padrões, procedimentos, atividades e seus responsáveis, bem como os itens de configuração a serem controlados e as ferramentas a serem utilizadas no gerenciamento de configuração.
 
 
 
@@ -56,15 +56,15 @@ Não se aplica.
 
 1.5 Visão Geral
 ---------------
-Este documento está organizado em seções. <p> A seção 1 oferece uma visão geral de todo o documento. Ela inclui a finalidade, o escopo, as definições, os acrônimos, as abreviações, as referências e uma visão geral deste Plano de Gerenciamento de Configuração.<p> 
+Este documento está organizado em seções. <p> A seção 1 oferece uma visão geral de todo o documento. Ela inclui a finalidade, o escopo, as definições, os acrônimos, as abreviações, as referências e uma visão geral deste Plano de Gerenciamento de Configuração.<p>
 
-A seção 2 descreve quem será o responsável pela execução das diversas atividades de CM, as ferramentas e os procedimentos necessários para o controle de versão dos itens de configuração gerados no ciclo de vida do projeto.<p>  
+A seção 2 descreve quem será o responsável pela execução das diversas atividades de CM, as ferramentas e os procedimentos necessários para o controle de versão dos itens de configuração gerados no ciclo de vida do projeto.<p>
 
 A seção 3  descreve como os itens de configuração devem ser identificados, as Baselines do projeto,a estrutura do repositório e a organização dos itens dentro do repositório.<p>
 
 A seção 4 define os padrões e procedimentos que devem ser seguidos no projeto.<p>
 
-A seção 5 descreve as ferramentas de software, o pessoal e o treinamento necessários para implementar as atividades de CM especificadas.<p> 
+A seção 5 descreve as ferramentas de software, o pessoal e o treinamento necessários para implementar as atividades de CM especificadas.<p>
 
 A seção 6 descreve o cronograma das auditorias de configuração e o que será verificado. Também informa como serão reportados os problemas encontrados e como será feito o acompanhamento das correções.
 
@@ -93,7 +93,7 @@ _As questões envolvidas na configuração do ambiente de CM incluem:_
 * _tamanho previsto dos dados do produto_
 * _distribuição da equipe do produto_
 * _localização física dos servidores e clientes]_
- 
+
 
 
 3. O Programa de Gerenciamento de Configuração
@@ -129,6 +129,8 @@ _[Descreva a organização de diretórios do seu repositório e que itens/arquiv
 
 ### 3.2.1 Processamento e Aprovação de Solicitações de Mudança
 _[Descreva o processo pelo qual os problemas e as mudanças são submetidos, revisados e dispostos. Inclua como funciona a transição de estados de uma solicitação de mudança]_
+
+As solicitações de mudanças da Baselines serão realizadas através da ferramenta Issue disponibilizada pelo GitHub através do endereço do repositório "https://github.com/marcosnasp/trab-gcs-fa7-turma7/trabalho/". Para tanto o usuário deve estar logado no GitHub.com. O preenchimento dos campos deve ser feito seguindo as orientações descritas a seguir. Devem ser aprovadas pelo core team responsável pelo artefato em questão.
 
 ### 3.2.2 Comitê de Controle de Mudança (CCB)
 _[Descreva a participação e os procedimentos para processar solicitações e aprovações de mudança a serem seguidos pelo CCB. Informe quem são os membros do CCB e suas responsabilidades.]_
