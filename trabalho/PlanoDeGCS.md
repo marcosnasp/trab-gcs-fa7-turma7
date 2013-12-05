@@ -95,12 +95,15 @@ _As questões envolvidas na configuração do ambiente de CM incluem:_
 * _distribuição da equipe do produto_
 * _localização física dos servidores e clientes]_
 
-Serão utilizadas as seguintes ferramentas para a gestão de configuração e mudança
+2.2.1 Serão utilizadas as seguintes ferramentas para a gestão de configuração e mudança:
+
 |Ferremanta          |Tipo       |Descrição        |Versão|
 |--------------------|-----------|-----------------|------|
 |Git|Control de versão|É uma ferramenta de cotrole de versão distribuído|1.8.4|
 |EGit|Plugin para integrar o Eclipse com Git|3.1.0|
 |Mantis BT|É uma ferramentas de controle de mudanças|1.2.15|
+
+2.2.2 Ferramentas para o ambiente desenvolvimento
 
 
  
