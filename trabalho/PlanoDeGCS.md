@@ -21,7 +21,7 @@ Histórico de Versões
 ==============
 
 1.1 Finalidade
----------------	
+---------------    
 Este documento tem como finalidade definir padrões, procedimentos, atividades e seus responsáveis, bem como os itens de configuração a serem controlados e as ferramentas a serem utilizadas no gerenciamento de configuração. 
 
 
@@ -78,9 +78,9 @@ _[Descreva quem será o responsável pela execução das diversas atividades de 
 
 |Papéis              |Equipe       |Responsabilidade        |
 |--------------------|-------------|------------------------|
-|Gerente de Configuração|Marcos Portela|Escrever o plano de Gerencia de Configuração<br>Configurar ambiente de Gerência de Configuração<br>Criar Baselines|
-|CCB|Luís Renné<br>Elias de Oliveira|Definir os processos de controle de mudanças<br>Aprovar ou rejeitar solicitações de alterações|
-|Desenvolvedor|Marcos Portela<br>Luís Renné<br>Elias de Oliveira|Seguir os padrões e procedimentos definidos no plano de Gerência de Configuração|
+|Gerente de Configuração|- Marcos Portela|Escrever o plano de Gerencia de Configuração<br>Configurar ambiente de gerência de configuração<br>Criar Baselines|
+|CCB|- Luís Renné<br>- Elias de Oliveira|Definir os processos de controle de mudanças<br>Aprovar ou rejeitar solicitações de mudanças|
+|Desenvolvedor|- Marcos Portela<br>- Luís Renné<br>- Elias de Oliveira|Seguir os padrões e procedimentos definidos no plano de gerência de configuração|
 
 
 
@@ -94,6 +94,15 @@ _As questões envolvidas na configuração do ambiente de CM incluem:_
 * _tamanho previsto dos dados do produto_
 * _distribuição da equipe do produto_
 * _localização física dos servidores e clientes]_
+
+Serão utilizadas as seguintes ferramentas para a gestão de configuração e mudança
+|Ferremanta          |Tipo       |Descrição        |Versão|
+|--------------------|-----------|-----------------|------|
+|Git|Control de versão|É uma ferramenta de cotrole de versão distribuído|1.8.4|
+|EGit|Plugin para integrar o Eclipse com Git|3.1.0|
+|Mantis BT|É uma ferramentas de controle de mudanças|1.2.15|
+
+
  
 
 
