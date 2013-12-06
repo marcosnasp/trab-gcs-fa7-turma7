@@ -168,6 +168,13 @@ Além destas responsabilidades, o Comitê de Configuração de Mudança é respo
 
 A tabela abaixo relaciona os papéis, responsabilidades e responsáveis definidos para o projeto.
 
+| Papel | Responsabilidade | Responsável | E-mail |
+|-------|------------------|-------------|--------|
+| Responsável pelos documentos do projeto | Mater e atualizar os artefatos \( _Requisição de alteração na Baseline e Intens de Configuração, Plano de Projeto de Software, Plano de Gerenciamento de Configuração, Plano de Gerencimanto de Qualidade, Plano de Gerenciamento de Requisitos, Plano de Gerenciamento de Riscos, Glosário do Projeto, Especificação de Caso de Uso, Plano de testes, Planilha de Acompanhamento de Mudanças, Formulário de solicitação de mudança e Relatório de Controle de Mudança._\), mantidos no repositório de documentos do projeto. | _Aguardando definições_ | nome.sobrenome@email.com |
+| Responsável pelos requisitos | Manter e atualizar o repositório de requisitos do projeto. | _Aguardando definições_ | nome.sobrenome@email.com |
+| Responsável pela configuração do software | Promover versões de software e fornecer componentes solicitados pela equipe de desenvolvimento. | _Aguardando definições_ | nome.sobrenome@email.com |
+| Administrador técnico do sistema | Manter e rastrear componentes do sistema \- Monitorar o desenvolvimento, garantindo integridade técnica e consistênca com os requisitos e arquitetura do sistema \- Rever solicitações de mudanças e auxiliar na avaliação para o CCB \- Verificar relatórios de problemas para resolver questões de prioridades. | _Aguardando definições_ | nome.sobrenome@email.com |
+
 4. Padrões e Procedimentos
 ==========================
 _[Descreva os padrões e procedimentos que devem ser seguidos no projeto. Crie subseções se achar necessário, para organizá-los melhor.]_
