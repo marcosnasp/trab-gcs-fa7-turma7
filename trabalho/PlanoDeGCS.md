@@ -132,20 +132,22 @@ _[Descreva o processo pelo qual os problemas e as mudanças são submetidos, rev
 
 As solicitações de mudanças da Baselines serão realizadas através da ferramenta Issue disponibilizada pelo GitHub através do endereço do repositório "https://github.com/marcosnasp/trab-gcs-fa7-turma7/trabalho/". Para tanto o usuário deve estar logado no GitHub.com. O preenchimento dos campos deve ser feito seguindo as orientações descritas a seguir. Devem ser aprovadas pelo core team responsável pelo artefato em questão.
 
-![Fluxo de Solicitações de Mudanças](https://raw.github.com/marcosnasp/trab-gcs-fa7-turma7/branch-elias/trabalho/FluxoProcessamentoASM_001.png)
+![Fluxo de Solicitações de Mudanças](https://raw.github.com/marcosnasp/trab-gcs-fa7-turma7/branch-elias/trabalho/FluxoStatusMudanca.png)
 
 #### Status do Issues
+Os possíveis status das mudanças estão especificado na tabela abaixo.
 
-| Atividade         | Descrição                                        | Responsabilidade     |
-|-------------------|--------------------------------------------------|----------------------|
-| Aberto            | Criação da solicitação                           | TODOS                |
-| Em Analise        | Análise da solicitação                           | Analista de Sistemas |
-| Analisado         | Aguardando desenvolvimento                       | Analista de Sistemas |
-| Em desenvolvmento | Solicitação sendo desenvolvida                   | Programador          |
-| Desenvolvido      | Aguardando teste                                 | Programador          |
-| Em teste          | Solicitação em teste                             | Testador             |
-| Teste com erro    | Solicitação aguardando finalização pelo Analista | Testador             |
-| Finalizado        | Solicitação finalizada                           | Analista de Sistemas |
+| Atividade         | Descrição                                                                   |
+|-------------------|-----------------------------------------------------------------------------|
+| Aberto            | Solicitação de mudança aberto mas ainda não foi aprovado.                   |
+| Em Analise        | Solicitação de mudança aguardando aprovação.                                |
+| Analisado         | Aguardando desenvolvimento.                                                 |
+| Em desenvolvmento | Requisição de mudança aprovada e trabalho em andamento.                     |
+| Desenvolvido      | Mudança solicitada implementada e em revisão para entrar na fase de testes. |
+| Em teste          | Mudança solicitada em fase de testes.                                       |
+| Teste com erro    | Solicitação aguardando finalização.                                         |
+| Finalizado        | Mudança solicitada implementada, testada com atualizações realizadas.       |
+| Rejeitada         | Requisição de mudança rejeitada pelo Comitê de Controle de Mudanças.        |
 
 ### 3.2.2 Comitê de Controle de Mudança (CCB)
 _[Descreva a participação e os procedimentos para processar solicitações e aprovações de mudança a serem seguidos pelo CCB. Informe quem são os membros do CCB e suas responsabilidades.]_
