@@ -56,15 +56,15 @@ Não se aplica.
 
 1.5 Visão Geral
 ---------------
-Este documento está organizado em seções. <p> A seção 1 oferece uma visão geral de todo o documento. Ela inclui a finalidade, o escopo, as definições, os acrônimos, as abreviações, as referências e uma visão geral deste Plano de Gerenciamento de Configuração.<p>
+Este documento está organizado em seções. A seção 1 oferece uma visão geral de todo o documento. Ela inclui a finalidade, o escopo, as definições, os acrônimos, as abreviações, as referências e uma visão geral deste Plano de Gerenciamento de Configuração.<p>
 
-A seção 2 descreve quem será o responsável pela execução das diversas atividades de CM, as ferramentas e os procedimentos necessários para o controle de versão dos itens de configuração gerados no ciclo de vida do projeto.<p>
+A seção 2 descreve quem será o responsável pela execução das diversas atividades de CM, as ferramentas e os procedimentos necessários para o controle de versão dos itens de configuração gerados no ciclo de vida do projeto.
 
-A seção 3  descreve como os itens de configuração devem ser identificados, as Baselines do projeto,a estrutura do repositório e a organização dos itens dentro do repositório.<p>
+A seção 3  descreve como os itens de configuração devem ser identificados, as Baselines do projeto,a estrutura do repositório e a organização dos itens dentro do repositório.
 
-A seção 4 define os padrões e procedimentos que devem ser seguidos no projeto.<p>
+A seção 4 define os padrões e procedimentos que devem ser seguidos no projeto.
 
-A seção 5 descreve as ferramentas de software, o pessoal e o treinamento necessários para implementar as atividades de CM especificadas.<p>
+A seção 5 descreve as ferramentas de software, o pessoal e o treinamento necessários para implementar as atividades de CM especificadas.
 
 A seção 6 descreve o cronograma das auditorias de configuração e o que será verificado. Também informa como serão reportados os problemas encontrados e como será feito o acompanhamento das correções.
 
@@ -152,7 +152,21 @@ Os possíveis status das mudanças estão especificado na tabela abaixo.
 ### 3.2.2 Comitê de Controle de Mudança (CCB)
 _[Descreva a participação e os procedimentos para processar solicitações e aprovações de mudança a serem seguidos pelo CCB. Informe quem são os membros do CCB e suas responsabilidades.]_
 
+O Comitê de Controle de Mudança do projeto terá as seguintes responsabilidades:
 
+* Manter o Plano de Gerenciamento de Configuração.
+* Gerenciar Repositórios de Itens de Configuração do projeto.
+* Identificar Itens de Configurações do projeto documentando suas características.
+* Controlar e facilitar mudanças nas características dos Itens de Configuração.
+* Receber e rever todos os Formulários de Manutenção de ICs \(inclusão, alteração e exclusão de IC\), verificando se informações adicionais são necessárias e enviando para o administrador técnico realizar pré-análise.
+* Garantir que as ações sejam tomadas dentro dos prazos previstos, fornecendo sugestões relacionados e versionamento quando couber.
+* Criar pacotes e versões de aplicações, realizando promoções quando solicitado.
+* Reportar ao Gerente de Projeto _status_ de aprovações de todas as mudanças propostas e todas as mudanças aprovadas.
+* Realizar auditorias para verificar ou inspeções por amostragem para verificar se o projeto está efetivamente seguindo o previsto no Plano de Gerenciamento de Configuração.
+
+Além destas responsabilidades, o Comitê de Configuração de Mudança é responsável pelo gerenciamento de todos os _Itens de Configuração das Baselines_ do projeto, incluindo software, hardware e documentação.
+
+A tabela abaixo relaciona os papéis, responsabilidades e responsáveis definidos para o projeto.
 
 4. Padrões e Procedimentos
 ==========================
