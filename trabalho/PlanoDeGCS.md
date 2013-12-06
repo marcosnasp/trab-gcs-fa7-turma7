@@ -132,6 +132,8 @@ _[Descreva o processo pelo qual os problemas e as mudanças são submetidos, rev
 
 As solicitações de mudanças da Baselines serão realizadas através da ferramenta Issue disponibilizada pelo GitHub através do endereço do repositório "https://github.com/marcosnasp/trab-gcs-fa7-turma7/trabalho/". Para tanto o usuário deve estar logado no GitHub.com. O preenchimento dos campos deve ser feito seguindo as orientações descritas a seguir. Devem ser aprovadas pelo core team responsável pelo artefato em questão.
 
+![Fluxo de Solicitações de Mudanças](https://raw.github.com/marcosnasp/trab-gcs-fa7-turma7/branch-elias/trabalho/FluxoProcessamentoASM_001.png)
+
 #### Status do Issues
 
 | Atividade         | Descrição                                        | Responsabilidade     |
