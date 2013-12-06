@@ -132,6 +132,19 @@ _[Descreva o processo pelo qual os problemas e as mudanças são submetidos, rev
 
 As solicitações de mudanças da Baselines serão realizadas através da ferramenta Issue disponibilizada pelo GitHub através do endereço do repositório "https://github.com/marcosnasp/trab-gcs-fa7-turma7/trabalho/". Para tanto o usuário deve estar logado no GitHub.com. O preenchimento dos campos deve ser feito seguindo as orientações descritas a seguir. Devem ser aprovadas pelo core team responsável pelo artefato em questão.
 
+#### Status do Issues
+
+| Atividade         | Descrição                                        | Responsabilidade     |
+|-------------------|--------------------------------------------------|----------------------|
+| Aberto            | Criação da solicitação                           | TODOS                |
+| Em Analise        | Análise da solicitação                           | Analista de Sistemas |
+| Analisado         | Aguardando desenvolvimento                       | Analista de Sistemas |
+| Em desenvolvmento | Solicitação sendo desenvolvida                   | Programador          |
+| Desenvolvido      | Aguardando teste                                 | Programador          |
+| Em teste          | Solicitação em teste                             | Testador             |
+| Teste com erro    | Solicitação aguardando finalização pelo Analista | Testador             |
+| Finalizado        | Solicitação finalizada                           | Analista de Sistemas |
+
 ### 3.2.2 Comitê de Controle de Mudança (CCB)
 _[Descreva a participação e os procedimentos para processar solicitações e aprovações de mudança a serem seguidos pelo CCB. Informe quem são os membros do CCB e suas responsabilidades.]_
 
