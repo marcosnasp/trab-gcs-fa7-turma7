@@ -165,6 +165,11 @@ O processo de avaliação de solicitações de mudanças devem seguir os seguint
 * Solicitar avaliação da mudança ao _time do projeto_.
 * Avaliar junto ao Gerente de Projeto, impactos das mudanças relacionados a prazos, custos e recursos.
 
+#### Aprovação ou rejeição da solicitação de mudança
+
+
+
+
 ### 3.2.2 Comitê de Controle de Mudança (CCB)
 _[Descreva a participação e os procedimentos para processar solicitações e aprovações de mudança a serem seguidos pelo CCB. Informe quem são os membros do CCB e suas responsabilidades.]_
 
