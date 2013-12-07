@@ -173,6 +173,21 @@ As baselines deverão ser geradas de acordo com a definição abaixo:
 ### 3.1.4 Estrutura do Repositório de Versões
 _[Descreva a organização de diretórios do seu repositório e que itens/arquivos devem ser armazenados em cada diretório.]_
 
+Os projetos deverão seguir a seguinte estrutura de pastas no repositório:
+
+| Diretório | Subdiretório | Artefatos |
+|-----------|--------------|-----------|
+| Documentos | Gerência de Configuração | Modelo do Plano de Gerenciamento de configuração, Relatório de Acompanhamento de Projeto, Notas de Releases e Arquivos de aprovação dos documentos. |
+| Documentos | Gerência de Projetos | Documento de Visão, Termo de Abertura, Plano de Projeto, Cronograma, Relatório de Status, Atas de Reuniões e Arquivos de aprovação dos documentos. |
+| Documentos | Requisitos | Especificação de Caso de Uso, Modelo de Caso de Uso, Glossário e Arquivos de aprovação dos documentos. |
+| Documentos | Analise e Projeto | Manual de Implantação, Documento de Arquitetura, Modelo de Banco de Dados, Modelo de Análise e Projetos e Arquivos de aprovação dos documentos. |
+| Documentos | Gerência de Mudança | Planilha de Acompanhamento de Mudanças, Formulário de Solicitação de Mudança, Relatório de Controle de Mudança e Arquivos de aprovação dos documentos |
+| Aplicação | ... | Códigos Fonte |
+
+Caso exista algum projeto onde a estrutura de pastas não atenda, será gerada uma adaptação e esta deverá ser descrita no _Plano de Projeto_.
+
+A responsabilidade de operacionalizar esses procedimentos ficará a cargo do _Analista de Gestão de Configuração_.
+
 3.2 Controle de Configuração e Mudança
 --------------------------------------
 
