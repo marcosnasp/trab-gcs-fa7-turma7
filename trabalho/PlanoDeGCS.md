@@ -111,7 +111,7 @@ A seção 6 descreve o cronograma das auditorias de configuração e o que será
 
 #### Banco de Dados
 O banco de dados utilizado no  projeto é PostgresSQL. Serão definidos três bancos de dados: Desenvolvimento, Homologação e Produção. Banco de Desenvolvimento é o banco utilizado pelos desenvovledores nas atividades de desenvolvimento ou testes. Banco de Homologação é o banco utilizado pelas versões do sistema a serem homologadas pelo cliente. Banco de Produção
-é o banco utilizado pelas versões definitivas disponibilizadas ao cliente.
+é o banco utilizado pelas versões definitivas disponibilizadas ao cliente. Os bancos de dados estarão configurados da seguinte maneira:
 
 
 |Banco de desenvolvimento|                   |
@@ -141,7 +141,7 @@ O banco de dados utilizado no  projeto é PostgresSQL. Serão definidos três ba
 
 
 #### Controle de Versão
-A ferramenta de controle de versão utilizada no projeto será o GIT, uma ferramenta de controle de versão distribuído. Também será usado o serviço GitHub para hospedar o repositório remoto do projeto. Este repositório deverá ser privado. O custo com o serviço de hospedagem do repositório é de $7.00 por mês. Os desenvolvedores da equipe deverão criar um repositório local que deverá ser um "_clone_" do repositório remoto em sua máquina.
+A ferramenta de controle de versão utilizada no projeto será o GIT, uma ferramenta de controle de versão distribuído. Também será usado o serviço GitHub para hospedar o repositório remoto do projeto. Este repositório deverá ser privado. O custo com o serviço de hospedagem do repositório é de $7.00 por mês. Os desenvolvedores da equipe deverão criar um repositório local que deverá ser um "_clone_" do repositório remoto em sua estação de desenvolvimento.
 
 
 |Repositorio Remoto |                                        |      
