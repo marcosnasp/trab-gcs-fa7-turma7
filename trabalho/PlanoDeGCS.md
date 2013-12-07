@@ -105,6 +105,12 @@ _As questões envolvidas na configuração do ambiente de CM incluem:_
 ----------------------------------
 _[Descreva como os artefatos do projeto ou produto devem ser nomeados, marcados e numerados. O esquema de identificação deve abranger o hardware, o software do sistema, os produtos de terceiros (COTS) e todos os artefatos de desenvolvimento de aplicativos listados na estrutura de diretórios do produto; por exemplo, planos, modelos, componentes, software de teste, resultados e dados, executáveis e assim por diante.]_
 
+Todos os produtos gerados durante o ciclo de vida do prjeto são _Itens de Configuração \(ICs\). Os Itens de Configuração do projeto deverão ser identificados por rótulos contendo sufixos que identificam o projeto, a data de entrega do mesmo, a fase do ciclo de vida do projeto e o número da versão do IC. Com a finalidade de facilitar a identificação e localização dos Itens de Configurações utiliza-se o código único de identificação no formato **SIGLAdoPROJETO-ANOMÊSDIA-FASECICLOPROJETO-VERSÃO**.
+
+Exemplo: **DETRAN-DOCUMENTOVISÃO-20131201-ER1**, representando a versão 1 do Documento de Visão do projeto DETRAN entregue ao _CCB_ em 01/12/2013 na fase de _Elicitação de Requisitos_ \(ER\). A versão 2 deste artefato seria armazenado com o identificador **DETRAN-DOCUMENTOVISÃO-20131215-ER2**.
+
+Após a homologação do Item de Configuração a identificação do mesmo deve conter a letra _**H**_ após a data registrada no identificador, exemplo: **DETRAN-DOCUMENTOVISÃO-20131230-H**.
+
 ### 3.1.2 Itens de Configuração
 _[Relacionar os artefatos ou grupos de artefatos, separando por tipo, modulo ou subsistema, responsável ou momento em que deverão ser incluídos em baselines._
 * _“Inclusão em Baseline” em branco significa que o grupo de artefatos não participará de baseline. Pode ser expresso como uma data ou identificador de uma baseline, fase ou ponto de controle_
