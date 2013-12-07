@@ -153,6 +153,23 @@ _[As baselines funcionam como um padrão oficial no qual os trabalhos subseqüen
 _Descreva em que pontos do ciclo de vida do projeto ou produto as baselines devem ser estabelecidas. As baselines mais comuns devem ser definidas ao final de cada uma das fases de Iniciação, Elaboração, Construção e Transição. Elas também podem ser geradas no final de iterações ocorridas dentro das várias fases ou com freqüência ainda maior._
 _Descreva quem autoriza uma baseline e o que ela contém.]_
 
+A _Baseline_ pode ser vista como uma _foto da versão_ de todos os itens de configuração utilizados em uma aplicação, desde os aspectos de _harware_ como os de _software_, devendo ser alterado pelo processo de gerenciamento de mudanças.
+
+#### Promoção de Baseline
+
+É o evento pelo qual uma baseline muda de estado, como resultado de sua aprovação em um determinado ponto de controle. _Baselines intermediárias_ podem ou não ser submetidas a teste. _Baselines em final de iteração e final de fase devem ser submetidas a teste_. As que forem candidatas a entrar em produção deverão ser submetidas a teste e homologação. _Os estados sugeridos:_ **inicial, desenvolvida, testada, homologada e implantada**.
+
+#### Criação de Baselines de Documentação
+
+As baselines deverão ser geradas de acordo com a definição abaixo:
+
+| Baseline | Composição | Em que momento é gerada |
+|----------|------------|-------------------------|
+| Baseline de Planejamento | Cronograma, Data Planejada de Início do Projeto, Data Planejada de Término do Projeto, Percentual Concluído, Duração Planejada, Duração Real, Esforço Planejado, Esforço Real, Custo Planejado e Custo Real. | Após aprovação do Plano de Projeto ou Após planejamento de iteração. |
+| Baseline de Artefatos | Documento de Visão, Declaração de Escopo e Especificação Casos de Uso. | A cada Homologação de artefato pelo Cliente. Desta forma, pode ser criada uma baseline para cada artefato homologado ou para um conjunto de artefatos homologados. |
+| Baseline de Mudança | Quaisquer itens que componham baseline e que precisem ser alterados.Os itens de configuração que compõem Baseline somente poderão ser alterados mediante uma _Solicitação de Mudança Aprovada_ na _Ferramenta de Gestão de Projetos_. | A cada alteração de itens de baseline. |
+| Build Externo | Códigos Fonte | Nas entregas de pacotes para o cliente. |
+
 ### 3.1.4 Estrutura do Repositório de Versões
 _[Descreva a organização de diretórios do seu repositório e que itens/arquivos devem ser armazenados em cada diretório.]_
 
@@ -172,17 +189,17 @@ A detecção de necessidades de mudanças e formalização das solicitações da
 
 Os possíveis status das mudanças estão especificado na tabela abaixo.
 
-| Atividade         | Descrição                                                                       |
-|-------------------|---------------------------------------------------------------------------------|
-| Aberto            | Solicitação de mudança aberto mas ainda não foi aprovado.                       |
-| Em análise        | Solicitação de mudança aguardando aprovação do _Comitê de Controle de Mudança_. |
-| Analisado         | Aguardando desenvolvimento.                                                     |
-| Em desenvolvmento | Requisição de mudança aprovada e trabalho em andamento.                         |
-| Desenvolvido      | Mudança solicitada implementada e em revisão para entrar na fase de testes.     |
-| Em teste          | Mudança solicitada em fase de testes.                                           |
-| Teste com erro    | Solicitação aguardando finalização.                                             |
-| Finalizado        | Mudança solicitada implementada, testada com atualizações realizadas.           |
-| Rejeitada         | Requisição de mudança rejeitada pelo Comitê de Controle de Mudanças.            |
+| Atividade | Descrição |
+|-----------|-----------|
+| Aberto | Solicitação de mudança aberto mas ainda não foi aprovado. |
+| Em análise | Solicitação de mudança aguardando aprovação do _Comitê de Controle de Mudança_. |
+| Analisado | Aguardando desenvolvimento. |
+| Em desenvolvmento  Requisição de mudança aprovada e trabalho em andamento. |
+| Desenvolvido | Mudança solicitada implementada e em revisão para entrar na fase de testes. |
+| Em teste | Mudança solicitada em fase de testes. |
+| Teste com erro | Solicitação aguardando finalização. |
+| Finalizado | Mudança solicitada implementada, testada com atualizações realizadas. |
+| Rejeitada | Requisição de mudança rejeitada pelo Comitê de Controle de Mudanças. |
 
 #### Avaliação da requisição de mudança
 
