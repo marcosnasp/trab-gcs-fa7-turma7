@@ -120,6 +120,30 @@ _[Relacionar os artefatos ou grupos de artefatos, separando por tipo, modulo ou 
 |----------------------------------------|-----------------------------|----------------------|
 |_&lt;grupo de itens de configuração&gt;_|_&lt;nome do responsável&gt;_|_&lt;momento a partir do qual o conjunto de artefatos será incluído em baseline&gt;_|
 
+No processo serão controlados os seguintes _Itens de Configurações_.
+
+#### Artefatos Técnicos
+
+* Documentação técnica \(Requisitos Funcionais e Especificações\).
+* Banco de Dados e arquivos de dados.
+* Configuração de hardware \(Servidores\).
+* Componentes de Redes.
+* Itens de Configurações de Software.
+* Itens de Rede.
+
+#### Artefatos Gerenciais
+
+* Plano do Projeto de Software.
+* Estrutura Analítica do Trabalho.
+* Documentos de Orçamentos e Cronograma.
+* Requisitos de relatórios.
+* Relatório de Acompanhamento de Projeto.
+
+#### Artefatos do gerencimanto de mudanças
+
+* Planilha de Acompanhamento de Mudanças.
+* Formulário de Solicitação de Mudança.
+* Relatório de Controle de Mudança.
 
 ### 3.1.3 Baselines do Projeto
 
