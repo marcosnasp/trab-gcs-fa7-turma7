@@ -143,9 +143,46 @@ _[Descreva os padrões e procedimentos que devem ser seguidos no projeto. Crie s
 
 5. Treinamento e Recursos
 =========================
+-------------------
+### 5.1 Treinamento
+-------------------
+### 5.1.1 Ferramenta GIT
+
+<p>
+Deve ser agendado um treinamento com pessoal especializado em controle de versão distruído, mais especificamente,
+GIT. A programação do treinamento deve ser dirigida pelos seguintes pontos:</p>
+<ol>
+<li>Conceitos de Controle de Versão distribuído</li>
+<li>Comparações e diferenças relacionadas ao Controle Centralizado.</li>
+<li>Visão Geral das Principais Ferramentas Disponíveis no Mercado.</li>
+<li>Utilização através de um estudo dirigido para um caso específico abordando as principais funcionalidades do
+cliente definido na seção de <b>recursos 5.2</b>.</li>
+<li>Avaliação da absorção dos conteúdos apreendidos visando medir a eficácia do treinamento.
+</ol> 
+
+### 5.1.2 Ferramenta JIRA
+<p>
+Deve ser agendado um treinamento com pessoal especializado na Ferramenta de tracking (Controle de mudanças) JIRA. A programação do treinamento deve ser dirigida pelos seguintes pontos:</p>
+<ol>
+<li>Conceitos de Controle de Mudanças e Ciclo de Vida</li>
+<li>Necessidades de Engenharia.</li>
+<li>Visão Geral das Principais Ferramentas concorrentes disponíveis no Mercado.</li>
+<li>Utilização através de um estudo dirigido para um caso específico abordando as principais funcionalidades do
+cliente definido na seção de <b>recursos 5.2</b>, ferramenta JIRA.</li>
+<li>Avaliação da absorção dos conteúdos apreendidos visando medir a eficácia do treinamento.
+</ol> 
+
+----------------
+### 5.2 Recursos
+----------------
+Para o Gerenciamento de Configuração de Software no projeto DETRAN serão utilizadas as seguintes ferramentas:
+<ol>
+<li>Para realizar o Controle de versão será utilizado a ferramenta Open Source GIT-SCM, nas suas versões: Bash e GUI. Essa ferramenta possui suporte para diversos tipos de sistemas operacionais: Windows, Mac OS e Linux. E está disponível
+em: http://git-scm.com/download. Mais informações sobre instalação em: http://git-scm.com/book/en/Getting-Started-Installing-Git.</li>
+<li>Para realizar o Controle de Mudanças será utilizada a ferramenta JIRA da Atlassian.</li>
+</ol>
+
 _[Descreva as ferramentas de software, o pessoal e o treinamento necessários para implementar as atividades de CM especificadas.]_
-
-
 
 6. Auditorias de Configuração
 =============================
