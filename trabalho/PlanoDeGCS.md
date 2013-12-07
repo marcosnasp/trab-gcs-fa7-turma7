@@ -103,7 +103,6 @@ _As questões envolvidas na configuração do ambiente de CM incluem:_
 ---------------------------------
 ### 3.1.1 Métodos de Identificação
 ----------------------------------
-_[Descreva como os artefatos do projeto ou produto devem ser nomeados, marcados e numerados. O esquema de identificação deve abranger o hardware, o software do sistema, os produtos de terceiros (COTS) e todos os artefatos de desenvolvimento de aplicativos listados na estrutura de diretórios do produto; por exemplo, planos, modelos, componentes, software de teste, resultados e dados, executáveis e assim por diante.]_
 
 Todos os produtos gerados durante o ciclo de vida do prjeto são _Itens de Configuração \(ICs\). Os Itens de Configuração do projeto deverão ser identificados por rótulos contendo sufixos que identificam o projeto, a data de entrega do mesmo, a fase do ciclo de vida do projeto e o número da versão do IC. Com a finalidade de facilitar a identificação e localização dos Itens de Configurações utiliza-se o código único de identificação no formato **SIGLAdoPROJETO-ANOMÊSDIA-FASECICLOPROJETO-VERSÃO**.
 
@@ -112,13 +111,6 @@ Exemplo: **DETRAN-DOCUMENTOVISÃO-20131201-ER1**, representando a versão 1 do D
 Após a homologação do Item de Configuração a identificação do mesmo deve conter a letra _**H**_ após a data registrada no identificador, exemplo: **DETRAN-DOCUMENTOVISÃO-20131230-H**.
 
 ### 3.1.2 Itens de Configuração
-_[Relacionar os artefatos ou grupos de artefatos, separando por tipo, modulo ou subsistema, responsável ou momento em que deverão ser incluídos em baselines._
-* _“Inclusão em Baseline” em branco significa que o grupo de artefatos não participará de baseline. Pode ser expresso como uma data ou identificador de uma baseline, fase ou ponto de controle_
-* _“Responsável”: indicar nominalmente, sempre que possível]_
-
-| Item (ou Tipo de Item)                 | Responsável na equipe	     | Inclusão em Baseline |
-|----------------------------------------|-----------------------------|----------------------|
-|_&lt;grupo de itens de configuração&gt;_|_&lt;nome do responsável&gt;_|_&lt;momento a partir do qual o conjunto de artefatos será incluído em baseline&gt;_|
 
 No processo serão controlados os seguintes _Itens de Configurações_.
 
@@ -149,10 +141,6 @@ _Um item de configuração é um conjunto de itens de hardware e/ou software vis
 
 ### 3.1.3 Baselines do Projeto
 
-_[As baselines funcionam como um padrão oficial no qual os trabalhos subseqüentes são baseados. Somente mudanças autorizadas podem ser efetuadas nas baselines._
-_Descreva em que pontos do ciclo de vida do projeto ou produto as baselines devem ser estabelecidas. As baselines mais comuns devem ser definidas ao final de cada uma das fases de Iniciação, Elaboração, Construção e Transição. Elas também podem ser geradas no final de iterações ocorridas dentro das várias fases ou com freqüência ainda maior._
-_Descreva quem autoriza uma baseline e o que ela contém.]_
-
 A _Baseline_ pode ser vista como uma _foto da versão_ de todos os itens de configuração utilizados em uma aplicação, desde os aspectos de _harware_ como os de _software_, devendo ser alterado pelo processo de gerenciamento de mudanças.
 
 #### Promoção de Baseline
@@ -171,7 +159,6 @@ As baselines deverão ser geradas de acordo com a definição abaixo:
 | Build Externo | Códigos Fonte | Nas entregas de pacotes para o cliente. |
 
 ### 3.1.4 Estrutura do Repositório de Versões
-_[Descreva a organização de diretórios do seu repositório e que itens/arquivos devem ser armazenados em cada diretório.]_
 
 Os projetos deverão seguir a seguinte estrutura de pastas no repositório:
 
@@ -194,7 +181,6 @@ A responsabilidade de operacionalizar esses procedimentos ficará a cargo do _An
 --------------------------------------
 
 ### 3.2.1 Processamento e Aprovação de Solicitações de Mudança
-_[Descreva o processo pelo qual os problemas e as mudanças são submetidos, revisados e dispostos. Inclua como funciona a transição de estados de uma solicitação de mudança]_
 
 Para o projeto deverá ser selecionado o _Gerente de Projeto_ para facilitar e acompanhar a execução do _Processo e Aprovação de Solicitação de Mudança_.
 
@@ -236,7 +222,6 @@ O processo de avaliação de solicitações de mudanças devem seguir os seguint
 Após a avaliação da solicitação de mudanças, o Comitê de Controle de Mudanças poderá aprovar, rejeitar ou requisitar maiores informações. A decisão normalmente se baseia nos riscos do projeto com ou sem implementação da mudança e no impacto desta implementação em termos de prazo, custos, riscos, recursos e qualidade. No caso de mudança ser _aprovada_, o Plano do Projeto deve ser atualizado e nova _Baseline_ deverá ser registrada relacionada a custo, cronograma e escopo. No caso da _rejeição_ a solicitação, deve ser enviada mensagem para o solicitante informando os motivos do não atendimento e o _status_ da solicitação sendo armazenado como _rejeitada_. Independente da decisão, a _Planilha de Acompanhamento de Mudanças_ deve ser atualizada.
 
 ### 3.2.2 Comitê de Controle de Mudança (CCB)
-_[Descreva a participação e os procedimentos para processar solicitações e aprovações de mudança a serem seguidos pelo CCB. Informe quem são os membros do CCB e suas responsabilidades.]_
 
 O Comitê de Controle de Mudança do projeto terá as seguintes responsabilidades:
 
