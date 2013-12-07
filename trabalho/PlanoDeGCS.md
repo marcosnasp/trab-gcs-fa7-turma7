@@ -136,21 +136,34 @@ A detecção de necessidades de mudanças e formalização das solicitações da
 
 ![Fluxo de Solicitações de Mudanças](https://raw.github.com/marcosnasp/trab-gcs-fa7-turma7/branch-elias/trabalho/FluxoStatusMudanca.png)
 
-#### Tabela de Status do Issues
+**_Tabela de Status do Issues_**
 
 Os possíveis status das mudanças estão especificado na tabela abaixo.
 
-| Atividade         | Descrição                                                                   |
-|-------------------|-----------------------------------------------------------------------------|
-| Aberto            | Solicitação de mudança aberto mas ainda não foi aprovado.                   |
+| Atividade         | Descrição                                                                       |
+|-------------------|---------------------------------------------------------------------------------|
+| Aberto            | Solicitação de mudança aberto mas ainda não foi aprovado.                       |
 | Em Analise        | Solicitação de mudança aguardando aprovação do _Comitê de Controle de Mudança_. |
-| Analisado         | Aguardando desenvolvimento.                                                 |
-| Em desenvolvmento | Requisição de mudança aprovada e trabalho em andamento.                     |
-| Desenvolvido      | Mudança solicitada implementada e em revisão para entrar na fase de testes. |
-| Em teste          | Mudança solicitada em fase de testes.                                       |
-| Teste com erro    | Solicitação aguardando finalização.                                         |
-| Finalizado        | Mudança solicitada implementada, testada com atualizações realizadas.       |
-| Rejeitada         | Requisição de mudança rejeitada pelo Comitê de Controle de Mudanças.        |
+| Analisado         | Aguardando desenvolvimento.                                                     |
+| Em desenvolvmento | Requisição de mudança aprovada e trabalho em andamento.                         |
+| Desenvolvido      | Mudança solicitada implementada e em revisão para entrar na fase de testes.     |
+| Em teste          | Mudança solicitada em fase de testes.                                           |
+| Teste com erro    | Solicitação aguardando finalização.                                             |
+| Finalizado        | Mudança solicitada implementada, testada com atualizações realizadas.           |
+| Rejeitada         | Requisição de mudança rejeitada pelo Comitê de Controle de Mudanças.            |
+
+#### Avaliação da requisição de mudança
+
+O processo de avaliação de solicitações de mudanças devem seguir os seguintes passos:
+
+* Avaliar se a mudança solicitada encontra-se dentro dos objetivos do projeto determinado no _Documento de Visão do Projeto_.
+* Avaliar se a mudança necessita de _Estudo de Viabilidade_.
+* Avaliar e quantificar o impacto da mudança em termos de escopo, cronograma, custos e qualidade.
+* Avaliar os riscos associados à mudança.
+* Avaliar se a mudança afeta outros projetos da empresa ou sistemas integrados.
+* Avaliar impactos relacionados a empresa terceirizadas ou terceiras partes e en outros contratos existentes.
+* Solicitar avaliação da mudança ao _time do projeto_.
+* Avaliar junto ao Gerente de Projeto, impactos das mudanças relacionados a prazos, custos e recursos.
 
 ### 3.2.2 Comitê de Controle de Mudança (CCB)
 _[Descreva a participação e os procedimentos para processar solicitações e aprovações de mudança a serem seguidos pelo CCB. Informe quem são os membros do CCB e suas responsabilidades.]_
