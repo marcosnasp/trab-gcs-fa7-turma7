@@ -114,8 +114,8 @@ O banco de dados utilizado no  projeto é PostgresSQL. Serão definidos três ba
 é o banco utilizado pelas versões definitivas disponibilizadas ao cliente.
 
 
-|Banco de desenvolvimento|
-|--|--------------|
+|Banco de desenvolvimento||
+|------------------------||
 |IP|192.168.1.5|
 |Porta|5432|
 |Nome do banco|_detran_desen_|
