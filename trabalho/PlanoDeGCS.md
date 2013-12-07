@@ -145,6 +145,8 @@ No processo serão controlados os seguintes _Itens de Configurações_.
 * Formulário de Solicitação de Mudança.
 * Relatório de Controle de Mudança.
 
+_Um item de configuração é um conjunto de itens de hardware e/ou software vistos como uma entidade única para fins de gerência de configuração. Um item de configuração está sujeito a mudanças e essas devem obedecer às políticas estabelecidas. Normalmente, um item de configuração é estabelecido para cada pedaço de software que pode ser projetado, implementado e testado de forma independente. Documentos e massas de dados, entretanto, também são passíveis de configuração e também podem ser considerados itens de configuração._
+
 ### 3.1.3 Baselines do Projeto
 
 _[As baselines funcionam como um padrão oficial no qual os trabalhos subseqüentes são baseados. Somente mudanças autorizadas podem ser efetuadas nas baselines._
