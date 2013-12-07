@@ -162,7 +162,7 @@ Para controle de mudanças, será utilizado no projeto a ferramenta de bug track
 |Hardware| Processador Intel® Core i5 2.8 GHz, 4GB RAM, 500 HD|
 
 #### Servidores de Aplicação 
-O servidor de aplicação utilizado pelo projeto será o JBoss. Serão disponiblizados dois servidores de aplicação, Homologação, no qual serão implantadas as versões a serem homologadas pelo cliente, e Produção, onde serão implantadas as versões finais a serem disponibilizadas ao  cliente. Os desenvoledores também terão um servidor JBoss rodando localmente em suas estações de desenvolvimento. 
+O servidor de aplicação utilizado pelo projeto será o JBoss. Serão disponiblizados dois servidores de aplicação, Homologação, no qual serão implantadas as versões a serem homologadas pelo cliente, e Produção, onde serão implantadas as versões finais a serem disponibilizadas ao  cliente. Os desenvolvedores também terão um servidor JBoss rodando localmente em suas estações de desenvolvimento. 
 
 |Servidor JBoss de Homologação|              |
 |-----------------------------|--------------|
@@ -182,7 +182,7 @@ O servidor de aplicação utilizado pelo projeto será o JBoss. Serão disponibl
 
 
 #### Ambiente de Desenvolvimento
-O código-fonte será editado através da IDE Eclipse. A documentação do projeto deverá ser feita utilizando a ferramenta LibreOffice salvando no formato ODF (Open Document Format). As estações de trabalho de desenvolvimento deverão ter as seguintes configurações:
+A edição de código-fonte será feita através da IDE Eclipse. A documentação do projeto deverá ser feita utilizando a ferramenta LibreOffice salvando no formato ODF (Open Document Format). As estações de trabalho de desenvolvimento deverão ter as seguintes configurações:
 
 |Ambiente de Desenvolvimento||
 |--------------------|-----------|
