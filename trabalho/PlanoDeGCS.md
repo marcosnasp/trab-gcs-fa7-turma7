@@ -130,17 +130,20 @@ _[Descreva a organização de diretórios do seu repositório e que itens/arquiv
 ### 3.2.1 Processamento e Aprovação de Solicitações de Mudança
 _[Descreva o processo pelo qual os problemas e as mudanças são submetidos, revisados e dispostos. Inclua como funciona a transição de estados de uma solicitação de mudança]_
 
-As solicitações de mudanças da Baselines serão realizadas através da ferramenta Issue disponibilizada pelo GitHub através do endereço do repositório "https://github.com/marcosnasp/trab-gcs-fa7-turma7/trabalho/". Para tanto o usuário deve estar logado no GitHub.com. O preenchimento dos campos deve ser feito seguindo as orientações descritas a seguir. Devem ser aprovadas pelo core team responsável pelo artefato em questão.
+Para o projeto deverá ser selecionado o _Gerente de Projeto_ para facilitar e acompanhar a execução do _Processo e Aprovação de Solicitação de Mudança_.
+
+A detecção de necessidades de mudanças e formalização das solicitações das mudanças da _baselines_ serão realizadas pelos membros da equipe do projeto autorizado a solicitar através da ferramenta _Issue_ disponibilizada pelo GitHub através do endereço do repositório do _projeto_ e submete o mesmo ao _Comitê de Controle de Mudanças_ na qual terá o seguinte fluxo.
 
 ![Fluxo de Solicitações de Mudanças](https://raw.github.com/marcosnasp/trab-gcs-fa7-turma7/branch-elias/trabalho/FluxoStatusMudanca.png)
 
-#### Status do Issues
+#### Tabela de Status do Issues
+
 Os possíveis status das mudanças estão especificado na tabela abaixo.
 
 | Atividade         | Descrição                                                                   |
 |-------------------|-----------------------------------------------------------------------------|
 | Aberto            | Solicitação de mudança aberto mas ainda não foi aprovado.                   |
-| Em Analise        | Solicitação de mudança aguardando aprovação.                                |
+| Em Analise        | Solicitação de mudança aguardando aprovação do _Comitê de Controle de Mudança_. |
 | Analisado         | Aguardando desenvolvimento.                                                 |
 | Em desenvolvmento | Requisição de mudança aprovada e trabalho em andamento.                     |
 | Desenvolvido      | Mudança solicitada implementada e em revisão para entrar na fase de testes. |
