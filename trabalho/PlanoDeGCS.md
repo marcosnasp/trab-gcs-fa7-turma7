@@ -175,6 +175,8 @@ _[Descreva a organização de diretórios do seu repositório e que itens/arquiv
 
 Os projetos deverão seguir a seguinte estrutura de pastas no repositório:
 
+**SIGLA DO CLIENTE\>SIGLA DO PROJETO\>DIRETÓRIO\>SUBDIRETÓRIO\(ARTEFATOS\)**
+
 | Diretório | Subdiretório | Artefatos |
 |-----------|--------------|-----------|
 | Documentos | Gerência de Configuração | Modelo do Plano de Gerenciamento de configuração, Relatório de Acompanhamento de Projeto, Notas de Releases e Arquivos de aprovação dos documentos. |
