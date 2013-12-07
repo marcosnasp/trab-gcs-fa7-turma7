@@ -114,24 +114,24 @@ O banco de dados utilizado no  projeto é PostgresSQL. Serão definidos três ba
 é o banco utilizado pelas versões definitivas disponibilizadas ao cliente.
 
 
-|Banco de desenvolvimento||
-|------------------------||
+|Banco de desenvolvimento|                   |
+|------------------------|-------------------|
 |IP|192.168.1.5|
 |Porta|5432|
-|Nome do banco|_detran_desen_|
+|Nome do banco| detran_desen |
 |Sistema Operacional|Linux Debian|
 |Hardware| Processador Intel® Core i5 2.8 GHz, 4GB RAM, 500 HD|
  
-|Banco de Homologação|
-|--|--------------|
+|Banco de Homologação|              |
+|--------------------|--------------|
 |IP|192.168.1.6|
 |Porta|5432|
-|Nome do banco|_detran_homolog_|
+|Nome do banco|detran_homolog|
 |Sistema Operacional|Linux Debian|
 |Hardware| Processador Intel® Core i5 2.8 GHz, 4GB RAM, 500 HD|
 
-|Banco de Produção|
-|--|--------------|
+|Banco de Produção|              |
+|-----------------|--------------|
 |IP|192.168.1.7|
 |Porta|5432|
 |Nome do banco|_detran_prod_|
@@ -144,9 +144,9 @@ O banco de dados utilizado no  projeto é PostgresSQL. Serão definidos três ba
 A ferramenta de controle de versão utilizada no projeto será o GIT, uma ferramenta de controle de versão distribuído. Também será usado o serviço GitHub para hospedar o repositório remoto do projeto. Este repositório deverá ser privado. O custo com o serviço de hospedagem do repositório é de $7.00 por mês. Os desenvolvedores da equipe deverão criar um repositório local que deverá ser um "_clone_" do repositório remoto em sua máquina.
 
 
-|Repositorio Remoto|
-|----------|--------------|
-|Endereço|https://github.com/detran/projetodetran|
+|Repositorio Remoto |                                        |      
+|-------------------|----------------------------------------|
+|Endereço           | https://github.com/detran/projetodetran|
 
 
 
@@ -154,7 +154,7 @@ A ferramenta de controle de versão utilizada no projeto será o GIT, uma ferram
 Para controle de mudanças, será utilizado no projeto a ferramenta de bug tracking MantisBT. Todos os membros da equipe do projeto deverão ter um usuário para acesso, assim como os clientes que irão solicitar as mudanças. 
 
 
-|Servidor MantisBT      |
+|Servidor MantisBT      ||
 |----------|--------------|
 |IP|192.168.1.8|
 |Endereço|http://192.168.1.8/mantis|
@@ -162,17 +162,17 @@ Para controle de mudanças, será utilizado no projeto a ferramenta de bug track
 |Hardware| Processador Intel® Core i5 2.8 GHz, 4GB RAM, 500 HD|
 
 #### Servidores de Aplicação 
-O servidor de aplicação utilizado pelo projeto será o JBoss. Serão disponiblizados dois servidores de aplicação, Homologação, no qual serão implantadas as versões a serem homologadas pelo cliente, e Produção, onde serão implantadas as versões finais a serem disponibilizadas ao  cliente. 
+O servidor de aplicação utilizado pelo projeto será o JBoss. Serão disponiblizados dois servidores de aplicação, Homologação, no qual serão implantadas as versões a serem homologadas pelo cliente, e Produção, onde serão implantadas as versões finais a serem disponibilizadas ao  cliente. Os desenvoledores também terão um servidor JBoss rodando localmente em suas estações de desenvolvimento. 
 
-|Servidor JBoss de Homologação|
-|--|--------------|
+|Servidor JBoss de Homologação|              |
+|-----------------------------|--------------|
 |IP|192.168.1.9|
 |Porta|8080|
 |Sistema Operacional|Linux Debian|
 |Hardware| Processador Intel® Core i5 2.8 GHz, 4GB RAM, 500 HD|
 
-|Servidor JBoss de Produção|
-|--|--------------|
+|Servidor JBoss de Produção|              |
+|--------------------------|--------------|
 |IP|192.168.1.10|
 |Porta|8080|
 |Sistema Operacional|Linux Debian|
@@ -184,7 +184,7 @@ O servidor de aplicação utilizado pelo projeto será o JBoss. Serão disponibl
 #### Ambiente de Desenvolvimento
 O código-fonte será editado através da IDE Eclipse. A documentação do projeto deverá ser feita utilizando a ferramenta LibreOffice salvando no formato ODF (Open Document Format). As estações de trabalho de desenvolvimento deverão ter as seguintes configurações:
 
-|Ambiente de Desenvolvimento|
+|Ambiente de Desenvolvimento||
 |--------------------|-----------|
 |Sistema Operacional|Linux Ubuntu|
 |Hardware | Processador Intel® Core i7 3.4GHz, 8GB RAM, 500 HD|
