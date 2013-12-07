@@ -132,7 +132,7 @@ _[Descreva o processo pelo qual os problemas e as mudanças são submetidos, rev
 
 Para o projeto deverá ser selecionado o _Gerente de Projeto_ para facilitar e acompanhar a execução do _Processo e Aprovação de Solicitação de Mudança_.
 
-A detecção de necessidades de mudanças e formalização das solicitações das mudanças da _baselines_ serão realizadas pelos membros da equipe do projeto autorizado a solicitar através da ferramenta _Issue_ disponibilizada pelo GitHub através do endereço do repositório do _projeto_ e submete o mesmo ao _Comitê de Controle de Mudanças_ na qual terá o seguinte fluxo.
+A detecção de necessidades de mudanças e formalização das solicitações das mudanças da _Baseline_ serão realizadas pelos membros da equipe do projeto autorizado a solicitar através da ferramenta _Issue_ disponibilizada pelo GitHub através do endereço do repositório do _projeto_ e submete o mesmo ao _Comitê de Controle de Mudanças_ na qual terá o seguinte fluxo.
 
 ![Fluxo de Solicitações de Mudanças](https://raw.github.com/marcosnasp/trab-gcs-fa7-turma7/branch-elias/trabalho/FluxoStatusMudanca.png)
 
@@ -143,7 +143,7 @@ Os possíveis status das mudanças estão especificado na tabela abaixo.
 | Atividade         | Descrição                                                                       |
 |-------------------|---------------------------------------------------------------------------------|
 | Aberto            | Solicitação de mudança aberto mas ainda não foi aprovado.                       |
-| Em Analise        | Solicitação de mudança aguardando aprovação do _Comitê de Controle de Mudança_. |
+| Em análise        | Solicitação de mudança aguardando aprovação do _Comitê de Controle de Mudança_. |
 | Analisado         | Aguardando desenvolvimento.                                                     |
 | Em desenvolvmento | Requisição de mudança aprovada e trabalho em andamento.                         |
 | Desenvolvido      | Mudança solicitada implementada e em revisão para entrar na fase de testes.     |
@@ -167,8 +167,7 @@ O processo de avaliação de solicitações de mudanças devem seguir os seguint
 
 #### Aprovação ou rejeição da solicitação de mudança
 
-
-
+Após a avaliação da solicitação de mudanças, o Comitê de Controle de Mudanças poderá aprovar, rejeitar ou requisitar maiores informações. A decisão normalmente se baseia nos riscos do projeto com ou sem implementação da mudança e no impacto desta implementação em termos de prazo, custos, riscos, recursos e qualidade. No caso de mudança ser _aprovada_, o Plano do Projeto deve ser atualizado e nova _Baseline_ deverá ser registrada relacionada a custo, cronograma e escopo. No caso da _rejeição_ a solicitação, deve ser enviada mensagem para o solicitante informando os motivos do não atendimento e o _status_ da solicitação sendo armazenado como _rejeitada_. Independente da decisão, a _Planilha de Acompanhamento de Mudanças_ deve ser atualizada.
 
 ### 3.2.2 Comitê de Controle de Mudança (CCB)
 _[Descreva a participação e os procedimentos para processar solicitações e aprovações de mudança a serem seguidos pelo CCB. Informe quem são os membros do CCB e suas responsabilidades.]_
@@ -185,7 +184,7 @@ O Comitê de Controle de Mudança do projeto terá as seguintes responsabilidade
 * Reportar ao Gerente de Projeto _status_ de aprovações de todas as mudanças propostas e todas as mudanças aprovadas.
 * Realizar auditorias para verificar ou inspeções por amostragem para verificar se o projeto está efetivamente seguindo o previsto no Plano de Gerenciamento de Configuração.
 
-Além destas responsabilidades, o Comitê de Configuração de Mudança é responsável pelo gerenciamento de todos os _Itens de Configuração das Baselines_ do projeto, incluindo software, hardware e documentação.
+Além destas responsabilidades, o Comitê de Controle de Mudança é responsável pelo gerenciamento de todos os _Itens de Configuração das Baselines_ do projeto, incluindo software, hardware e documentação.
 
 A tabela abaixo relaciona os papéis, responsabilidades e responsáveis definidos para o projeto.
 
