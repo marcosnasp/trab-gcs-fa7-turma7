@@ -454,6 +454,45 @@ _Descrição:_
     Exemplo 01: DETRAN-APPANDROID-MAN-USER.doc;
 </pre>
 
+### 4.4.3 Aprovações Formais de Documentos
+
+Esta seção mostra como nomear os arquivos de aprovação de documentos e o pacote
+contendo todas as aprovações.
+
+#### Aprovações Individuais
+
+_Regra:_
+
+* **DETRAN-[NOME DO DOC]-[VERSÃO]-[APROVADOR].txt**
+
+_Descrição:_
+
+* **[NOME DO DOC]:** Nome do documento.
+* **[VERSÃO]:** Versão do documento.
+* **[APROVADOR]:** Nome ou Login do aprovador do documento.
+
+<pre>
+    Exemplo 01: DETRAN-APPANDROID-REQ-01.00-MARCOS.txt;
+    Exemplo 02: DETRAN-SCM-PLAN-01.00-FAELIASO.txt;
+</pre>
+
+#### Pacote de Aprovações Formais
+
+_Regra:_
+
+* **DETRAN-[NOME DO DOC].zip**
+
+_Descrição:_
+
+* **[NOME DO DOC]:** Nome do documento.
+
+<pre>
+    Exemplo 01: DETRAN-APPANDROID-REQ-aprovacoes.zip;
+    Exemplo 02: DETRAN-SCM-PLAN.aprovacoes.zip;
+</pre>
+
+_Observações:_ Pacotes de aprovações devem conter todas as aprovações individuais.
+
 4.5 Versionamento
 ------------------
 
