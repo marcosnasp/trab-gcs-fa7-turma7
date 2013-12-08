@@ -13,7 +13,8 @@ Histórico de Versões
 |--------------------|-------------|------------------------|---------------|
 |25/11/2013|1.0|Versão inicial|Luis Renné|
 |26/11/2013|1.1|Seção 1 finalizada|Luis Renné|
-|07/12/2013|1.0|Seção 3 finalizada|Elias de Oliveira|
+|07/12/2013|1.1|Seção 3 finalizada|Elias de Oliveira|
+|08/12/2013|1.0|Seção 4 finalizada|Elias de Oliveira|
 
 
 
