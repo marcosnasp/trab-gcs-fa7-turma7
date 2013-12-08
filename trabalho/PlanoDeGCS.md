@@ -419,6 +419,41 @@ _Descrição:_
 
 Nesta seção serão apresentados os padrões de nomenclatura para os documentos.
 
+### 4.4.1 Documentação do Projeto
+
+_Regra:_
+
+* **DETRAN-[PROJETO]-[AP]-[TIPO]-[EXTRA].[EXT]**
+
+_Descrição:_
+
+* **[PROJETO]:** Identificador do projeto.
+* **[AP]:** Identificador da área do processo.
+* **[TIPO]:** Identificador do tipo de documento.
+* **[EXTRA]:** Campo para informações extra (opcional).
+* **[EXT]:** Extensão do documento.
+
+<pre>
+    Exemplo 01: DETRAN-SCM-PLAN.doc;
+</pre>
+
+### 4.4.2 Documentação de Desenvolvimento
+
+_Regra:_
+
+* **DETRAN-[PROJETO]-[TIPO]-[EXTRA].[EXT]**
+
+_Descrição:_
+
+* **[PROJETO]:** Identificador do projeto.
+* **[TIPO]:** Identificador do tipo de documento.
+* **[EXTRA]:** Campo para informações extra (opcional).
+* **[EXT]:** Extensão do documento.
+
+<pre>
+    Exemplo 01: DETRAN-APPANDROID-MAN-USER.doc;
+</pre>
+
 4.5 Versionamento
 ------------------
 
