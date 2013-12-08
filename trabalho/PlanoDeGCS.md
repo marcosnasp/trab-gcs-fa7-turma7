@@ -496,9 +496,40 @@ _Observações:_ Pacotes de aprovações devem conter todas as aprovações indi
 4.5 Versionamento
 ------------------
 
-|Versão |Descrição |
-|-------|----------|
-|XXXXXXX|YYYYYYYYYY|
+As seções seguintes descrevem o padrão de versionamento dos artefatos.
+
+### 4.5.1 Código – Versionamento dos Releases
+
+_Esquema:_
+
+* **[XX]-[YY]-[ZZ]-\(\[TIPO\]\[SEQ\]\)**
+
+_Descrição:_
+
+* **[XX]:** Versão do software a ser entregue ao cliente com
+modificações substanciais nos requisitos e/ou funcionalidades do sistema. Ele representa o número da iteração do release. Inicia-se este campo com o valor **"1"**.
+
+* **[YY]:** Número a ser incrementado quando um release for produzido com uma nova funcionalidade incluída no sistema. Inicia-se este campo com o valor **"00"** e volta a este valor quando **[XX]** é alterado. Este campo só deve ser incrementado depois do primeiro release final.
+
+* **[ZZ]:** Número a ser incrementado quando um novo release for produzido para correção de um release **[XX].[YY]**. Inicia-se este campo com o valor **"00"** e volta a este valor quando **[XX]** ou **[YY]** é alterado. Este campo só deve ser incrementado depois do primeiro release final.
+
+* **[TIPO]:** Campo opcional que indica o tipo do release:
+
+    <ul>
+        <li>"d": para builds internos com o sistema em desenvolvimento. Pode ser utilizado para marcar algum checkpoint periódico ou para congelar o sistema para algum outro fim.</li>
+        <li>"a": para releases alpha, um release para testes internos, possivelmente sem todos os requisitos planejados implementados e com erros.</li>
+        <li>"b": para releases beta, um release completo, com todas as funcionalidades implementadas, pronto para testes do cliente e possivelmente com problemas. Poderão existir diversos releases beta até que os problemas detectados sejam insignificantes com baixa severidades ou seja, o critério de aceitação tenha sido alcançado.</li>
+    </ul>
+
+* **[SEQ]:** Campo opcional que indica a quantidade de releases/builds produzidos para um determinado tipo de release de uma versão **XX.YY.ZZ**.
+
+|Versão|Descrição|
+|------|---------|
+|1.00.00|Baseline de release para a versão 01.00 do sistema.|
+|1.00.00d2|Segunda baseline de release com o sistema ainda em desenvolvimento.|
+|1.00.00a1|Primeira baseline de release para testes internos (alpha).|
+|1.00.01|Baseline de release para correção de bugs na versão 01.00 do sistema e sem inclusões de novas funcionalidades.|
+|2.00.00|Baseline de release com mudanças substanciais de funcionalidades do sistema.|
 
 5. Treinamento e Recursos
 =========================
