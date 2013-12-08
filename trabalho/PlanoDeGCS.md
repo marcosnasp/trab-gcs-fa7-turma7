@@ -249,9 +249,8 @@ A tabela abaixo relaciona os papéis, responsabilidades e responsáveis definido
 
 4. Padrões e Procedimentos
 ==========================
-_[Descreva os padrões e procedimentos que devem ser seguidos no projeto. Crie subseções se achar necessário, para organizá-los melhor.]_
 
-
+Nesta seção, serão apresentados os _padrões utilizados no projeto_ tais como, identificadores, nomes de arquivos, nomes de tags, nomes de branches, versionamento \(sistema, documentos e baselines\) e composição dos vários CCBs.
 
 5. Treinamento e Recursos
 =========================
