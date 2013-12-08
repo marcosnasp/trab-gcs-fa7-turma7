@@ -555,6 +555,17 @@ _Logo que um item de configuração é criado, possui número de versão "1.00-R
 
 _Observações:_ As versões rascunho crescem conforme decisão do seu responsável.
 
+### 4.5.3 Baselines
+
+_Esquema:_
+
+* **[SEQ]**
+
+_Descrição:_
+
+* **[SEQ]:** É um número sequencial incrementado a cada vez que uma solicitação de mudança
+(ou um conjunto delas) impacta em versões estáveis do artefato.
+
 5. Treinamento e Recursos
 =========================
 _[Descreva as ferramentas de software, o pessoal e o treinamento necessários para implementar as atividades de CM especificadas.]_
