@@ -252,6 +252,28 @@ A tabela abaixo relaciona os papéis, responsabilidades e responsáveis definido
 
 Nesta seção, serão apresentados os _padrões utilizados no projeto_ tais como, identificadores, nomes de arquivos, nomes de tags, nomes de branches, versionamento \(sistema, documentos e baselines\) e composição dos vários CCBs.
 
+4.1 Identificadores
+--------------------
+
+São descritos nessa seção os identificadore a serem utilizados nos padrões de _nomeclatura_ do projeto.
+
+### 4.1.1 Identificadores do Projeto
+
+_Identificador\(es\) relacionado\(s\) ao projeto e seus produtos._
+
+#### Fábrica de Software:
+
+|Identificador |Descrição |
+|--------------|----------|
+|DETRAN|Identificador da Fábrica de Software|
+
+#### Projeto\(s\):
+
+|Identificador |Descrição |
+|--------------|----------|
+|APPANDROID|Identificador do Projeto|
+|SITEINSTITUCIONAL|Identificador do Projeto|
+
 5. Treinamento e Recursos
 =========================
 _[Descreva as ferramentas de software, o pessoal e o treinamento necessários para implementar as atividades de CM especificadas.]_
