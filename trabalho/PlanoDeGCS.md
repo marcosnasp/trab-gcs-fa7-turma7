@@ -274,6 +274,109 @@ _Identificador\(es\) relacionado\(s\) ao projeto e seus produtos._
 |APPANDROID|Identificador do Projeto|
 |SITEINSTITUCIONAL|Identificador do Projeto|
 
+### 4.1.2 Identificadores das Áreas de Processos
+
+_Identificadores a serem usados nos nomes de artefatos de projeto._
+
+|Identificador |Descrição |
+|--------------|----------|
+|SCM|Gerência de Configuração|
+|SQA|Garantia da Qualidade|
+|SPM|Gerência de Projeto|
+
+### 4.1.3 Identificadores de Tipos de Artefatos
+
+_Identificador\(es\) relacionado\(s\) aos tipos de artefatos._
+
+#### Identificadores de artefatos de Desenvolvimento
+
+|Identificador|Descrição |
+|-------------|----------|
+|ARQ|Documento de Arquitetura do Sistema|
+|DOC|Documento não classificado|
+|I18N|Tabela de Internacionalização|
+|MAD|Modelo de Análise e Projeto|
+|MAN|Manual|
+|MBD|Esquema do Banco de Dados|
+|MRT|Matriz de Ratreabilidade de Requisitos|
+|REQ|Especificação de Requisitos de Software|
+|TSTD|Projeto de Testes|
+|TSTP|Plano de Testes|
+|TSTR|Resultado de Testes|
+|UCS|Especificação de Casos de Uso|
+
+#### Identificadores de artefatos de Projeto
+
+|Versão |Descrição |
+|-------|----------|
+|ATA|Atas|
+|CHK|Checklist|
+|CRO|Cronograma|
+|EST|Documentos de Estimativas|
+|FIN|Financeiro|
+|PLAN|Planos|
+|REL|Relatórios|
+
+4.2 Nomenclatura de Labels/Tags
+--------------------------------
+
+_As seções seguintes descrevem o padrão de nomenclatura de **TAGS**. Para todos eles, todos os caracteres devem utilizar **CAIXA ALTA**._
+
+### 4.2.1 Aprovação de Documentos
+
+_Regra:_
+
+* **DETRAN-[NOME DO DOCUMENTO]-[DATA \(ANO MÊS DIA\)]-[VERSÃO]**
+
+_Descrição:_
+
+* **[NOME DO DOCUMENTO]:** É o nome do documento _sem_ sua extensão.
+* **[DATA]:** Data da entrega do documento especificado pelo _ANO_, _MÊS_ e _DIA_.
+* **[VERSÃO]:** Versão do documento.
+
+<pre>
+    Exemplo 01: DETRAN-SCM-PLANO-20131201-01.00
+    Exemplo 02: DETRAN-SCM-PLANO-20131225-01.00
+</pre>
+
+_Uso:_ Aplicado somente em documentos em _versão estável_ a partir do momento da aprovação.
+
+### 4.2.2 Baseline de Desenvolvimento
+
+_Regra:_
+
+* **DETRAN-[PROJETO]-DEV-[VERSÃO]**
+
+_Descrição:_
+
+* **DETRAN:** Identificador da Fábrica de Software.
+* **[PROJETO]:** Identificador da área do projeto.
+* **[VERSÃO]:** É a versão da baseline de desenvolvimento.
+
+<pre>
+    Exemplo 01: DETRAN-APPANDROID-DEV-001
+    Exemplo 02: DETRAN-APPANDROID-DEV-017
+</pre>
+
+_Uso:_ Aplicado em todas as versões dos artefatos da baseline.
+
+### 4.2.3 Release
+
+_Regra:_
+
+* **DETRAN-[PROJETO]-REL-[VERSÃO]**
+
+_Descrição:_
+
+* **[VERSÃO]:** é a versão do sistema, aplicação ou módulo que está sendo entregue.
+
+<pre>
+    Exemplo 01: DETRAN-APPANDROID-REL-010000
+    Exemplo 02: DETRAN-APPANDROID-REL-020300
+</pre>
+
+_Uso:_ Aplicado em todos os artefatos entregues na baseline de desenvolvimento testada;
+
 5. Treinamento e Recursos
 =========================
 _[Descreva as ferramentas de software, o pessoal e o treinamento necessários para implementar as atividades de CM especificadas.]_
