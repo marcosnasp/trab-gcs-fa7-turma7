@@ -320,7 +320,7 @@ _Identificador\(es\) relacionado\(s\) aos tipos de artefatos._
 4.2 Nomenclatura de Labels/Tags
 --------------------------------
 
-_As seções seguintes descrevem o padrão de nomenclatura de **TAGS**. Para todos eles, todos os caracteres devem utilizar **CAIXA ALTA**._
+As seções seguintes descrevem o padrão de nomenclatura de **TAGS**. Para todos eles, todos os caracteres devem utilizar **CAIXA ALTA**.
 
 ### 4.2.1 Aprovação de Documentos
 
@@ -376,6 +376,53 @@ _Descrição:_
 </pre>
 
 _Uso:_ Aplicado em todos os artefatos entregues na baseline de desenvolvimento testada;
+
+4.3 Nomenclatura de Branches
+-----------------------------
+
+As seções seguintes descrevem o padrão de nomenclatura de _branches_. Para todos eles, todos os caracteres devem utilizar **caixa baixa**.
+
+### 4.3.1 Branches de Desenvolvimento
+
+_Regra:_
+
+* **dev\_[ID]\_[LOGIN]\_[PROJETO]\_[EXTRA]**
+
+_Descrição:_
+
+* **[ID]:** Ldentificador da atividade.
+* **[LOGIN]:** Login do usuário responsável pela correção do release\(opcional\).
+* **[PROJETO]:** Identificador do projeto.
+* **[EXTRA]:** Campo adicional para alguma informação extra que ajude a identificar o branch \(opcional\). Se o branch for para correções de release, usar **_rel[VERSION]**. Se não, utilizar alguma informação relativa à correção sendo feita;
+
+<pre>
+    Exemplo 01: dev_123_faeliaso_appandroid_issue;
+</pre>
+
+### 4.3.2 Branches de Integração
+
+_Regra:_
+
+* **int\_[PROJETO]\_[EXTRA]**
+
+_Descrição:_
+
+* **[PROJETO]:** Identificador do projeto.
+* **[EXTRA]:** Campo adicional para alguma informação extra que ajude a identificar o branch \(opcional\).
+
+<pre>
+    Exemplo 01: int_appandroid_integracaoxyz-001;
+</pre>
+
+4.4 Nomenclatura de Documento
+------------------------------
+
+4.5 Versionamento
+------------------
+
+|Versão |Descrição |
+|-------|----------|
+|XXXXXXX|YYYYYYYYYY|
 
 5. Treinamento e Recursos
 =========================
