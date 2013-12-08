@@ -417,6 +417,8 @@ _Descrição:_
 4.4 Nomenclatura de Documento
 ------------------------------
 
+Nesta seção serão apresentados os padrões de nomenclatura para os documentos.
+
 4.5 Versionamento
 ------------------
 
