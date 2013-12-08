@@ -105,11 +105,11 @@ _As questões envolvidas na configuração do ambiente de CM incluem:_
 ### 3.1.1 Métodos de Identificação
 ----------------------------------
 
-Todos os produtos gerados durante o ciclo de vida do prjeto são _Itens de Configuração \(ICs\). Os Itens de Configuração do projeto deverão ser identificados por rótulos contendo sufixos que identificam o projeto, a data de entrega do mesmo, a fase do ciclo de vida do projeto e o número da versão do IC. Com a finalidade de facilitar a identificação e localização dos Itens de Configurações utiliza-se o código único de identificação no formato **SIGLAdoPROJETO-ANOMÊSDIA-FASECICLOPROJETO-VERSÃO**.
+Todos os produtos gerados durante o ciclo de vida do prjeto são _Itens de Configuração \(ICs\). Os Itens de Configuração do projeto deverão ser identificados por rótulos contendo sufixos que identificam o projeto, a data de entrega do mesmo, a fase do ciclo de vida do projeto e o número da versão do IC. Com a finalidade de facilitar a identificação e localização dos Itens de Configurações utiliza-se o código único de identificação no formato **[SIGLA DO PROJETO]-[NOME DO DOCUMENTO]-[DATA]-VERSÃO**.
 
 Exemplo: **DETRAN-DOCUMENTOVISÃO-20131201-ER1**, representando a versão 1 do Documento de Visão do projeto DETRAN entregue ao _CCB_ em 01/12/2013 na fase de _Elicitação de Requisitos_ \(ER\). A versão 2 deste artefato seria armazenado com o identificador **DETRAN-DOCUMENTOVISÃO-20131215-ER2**.
 
-Após a homologação do Item de Configuração a identificação do mesmo deve conter a letra _**H**_ após a data registrada no identificador, exemplo: **DETRAN-DOCUMENTOVISÃO-20131230-H**.
+_Aplicar os Padrões e Procedimentos especificados na Seção 4._
 
 ### 3.1.2 Itens de Configuração
 
@@ -335,8 +335,9 @@ _Descrição:_
 * **[VERSÃO]:** Versão do documento.
 
 <pre>
-    Exemplo 01: DETRAN-SCM-PLANO-20131201-01.00
-    Exemplo 02: DETRAN-SCM-PLANO-20131225-01.00
+    Exemplo 01: DETRAN-SCM-PLANO-20131201-1.00
+    Exemplo 02: DETRAN-SCM-PLANO-20131225-1.00
+    Exemplo 02: DETRAN-SCM-PLANO-20131230-1.01
 </pre>
 
 _Uso:_ Aplicado somente em documentos em _versão estável_ a partir do momento da aprovação.
@@ -371,8 +372,8 @@ _Descrição:_
 * **[VERSÃO]:** é a versão do sistema, aplicação ou módulo que está sendo entregue.
 
 <pre>
-    Exemplo 01: DETRAN-APPANDROID-REL-010000
-    Exemplo 02: DETRAN-APPANDROID-REL-020300
+    Exemplo 01: DETRAN-APPANDROID-REL-1.00.00
+    Exemplo 02: DETRAN-APPANDROID-REL-2.03.00
 </pre>
 
 _Uso:_ Aplicado em todos os artefatos entregues na baseline de desenvolvimento testada;
@@ -525,10 +526,10 @@ modificações substanciais nos requisitos e/ou funcionalidades do sistema. Ele 
 
 |Versão|Descrição|
 |------|---------|
-|1.00.00|Baseline de release para a versão 01.00 do sistema.|
+|1.00.00|Baseline de release para a versão 1.00 do sistema.|
 |1.00.00d2|Segunda baseline de release com o sistema ainda em desenvolvimento.|
 |1.00.00a1|Primeira baseline de release para testes internos (alpha).|
-|1.00.01|Baseline de release para correção de bugs na versão 01.00 do sistema e sem inclusões de novas funcionalidades.|
+|1.00.01|Baseline de release para correção de bugs na versão 1.00 do sistema e sem inclusões de novas funcionalidades.|
 |2.00.00|Baseline de release com mudanças substanciais de funcionalidades do sistema.|
 
 5. Treinamento e Recursos
