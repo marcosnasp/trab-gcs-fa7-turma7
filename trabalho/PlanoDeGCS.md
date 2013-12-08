@@ -507,8 +507,7 @@ _Esquema:_
 
 _Descrição:_
 
-* **[XX]:** Versão do software a ser entregue ao cliente com
-modificações substanciais nos requisitos e/ou funcionalidades do sistema. Ele representa o número da iteração do release. Inicia-se este campo com o valor **"1"**.
+* **[XX]:** Versão do software a ser entregue ao cliente com modificações substanciais nos requisitos e/ou funcionalidades do sistema. Ele representa o número da iteração do release. Inicia-se este campo com o valor **"1"**.
 
 * **[YY]:** Número a ser incrementado quando um release for produzido com uma nova funcionalidade incluída no sistema. Inicia-se este campo com o valor **"00"** e volta a este valor quando **[XX]** é alterado. Este campo só deve ser incrementado depois do primeiro release final.
 
@@ -531,6 +530,30 @@ modificações substanciais nos requisitos e/ou funcionalidades do sistema. Ele 
 |1.00.00a1|Primeira baseline de release para testes internos (alpha).|
 |1.00.01|Baseline de release para correção de bugs na versão 1.00 do sistema e sem inclusões de novas funcionalidades.|
 |2.00.00|Baseline de release com mudanças substanciais de funcionalidades do sistema.|
+
+### 4.5.2 Documentos
+
+_Esquema:_
+
+* **[XX]-[YY]-\(\-R\[SEQ\]\)**
+
+_Descrição:_
+
+* **[XX]:** Indica alterações significativas no artefato ou seja, este campo deve ser incrementado a
+cada nova aprovação de documento. Inicia-se em **"1"**.
+* **[YY]:** Indica pequenas alterações no artefato. Inicia-se esse campo com "00" e quando [XX]
+for incrementado, este número deverá voltar para "00".
+* **\(\-R\[SEQ\]\):** Indica uma _versão rascunho_, ou seja, uma versão que ainda está sendo trabalhada e não deve ser considerada, pois sua estabilidade ainda não foi comprovadamente atestada.
+
+_Logo que um item de configuração é criado, possui número de versão "1.00-R1"._
+
+<pre>
+    Exemplo 01: DETRAN-SCM-PLANO-20131201-1.00-R1
+    Exemplo 02: DETRAN-SCM-PLANO-20131225-1.00
+    Exemplo 02: DETRAN-SCM-PLANO-20131230-1.01-R1
+</pre>
+
+_Observações:_ As versões rascunho crescem conforme decisão do seu responsável.
 
 5. Treinamento e Recursos
 =========================
