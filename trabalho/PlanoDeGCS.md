@@ -100,7 +100,8 @@ A seção 6 descreve o cronograma das auditorias de configuração e o que será
 |----|---------|------|-------|
 |Git|Controle de versão distribuído|1.8.5.1|Free|
 |EGit|Plugin para integrar o Eclipse ao Git|3.1.0|Free|
-|MantisBT|Ferramenta de controle de mudanças|1.2.15|Free|
+|GitHub|Serviço de hospedagem de repositório Git (privado)|...|$ 7,00 / mês|
+|Jira|Ferramenta de controle de mudanças|6.1.4|$ 10,00 / mês|
 |PostgreSQL|Servidor de Banco de Dados|9.3|Free|
 |pgAdmin|Client PostgreSQL|1.18.1|Free|
 |Eclipse|IDE para desenvolvimento Java|4.3.0|Free|
@@ -155,13 +156,13 @@ A ferramenta de controle de versão utilizada no projeto será o GIT, uma ferram
 
 
 ####Controle de Mudanças
-Para controle de mudanças, será utilizado no projeto a ferramenta de bug tracking MantisBT. Todos os membros da equipe do projeto deverão ter um usuário para acesso, assim como os clientes que irão solicitar as mudanças. 
+Para controle de mudanças, será utilizado no projeto a ferramenta Jira. Todos os membros da equipe do projeto deverão ter um usuário para acesso, assim como os clientes que irão solicitar as mudanças. 
 
 
-|Servidor MantisBT      ||
+|Servidor Jira      ||
 |----------|--------------|
 |IP|192.168.1.8|
-|Endereço|http://192.168.1.8/mantis|
+|Endereço|http://192.168.1.8/jira|
 |Sistema Operacional|Linux Debian|
 |Hardware| Processador Intel® Core i5 2.8 GHz, 4GB RAM, 500 HD|
 
