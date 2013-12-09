@@ -106,7 +106,7 @@ _As questões envolvidas na configuração do ambiente de CM incluem:_
 ### 3.1.1 Métodos de Identificação
 ----------------------------------
 
-Todos os produtos gerados durante o ciclo de vida do prjeto são _Itens de Configuração \(ICs\). Os Itens de Configuração do projeto deverão ser identificados por rótulos contendo sufixos que identificam o projeto, a data de entrega do mesmo, a fase do ciclo de vida do projeto e o número da versão do IC. Com a finalidade de facilitar a identificação e localização dos Itens de Configurações utiliza-se o código único de identificação no formato **[SIGLA DO PROJETO]-[NOME DO DOCUMENTO]-[DATA]-VERSÃO**.
+Todos os produtos gerados durante o ciclo de vida do projeto são _Itens de Configuração \(ICs\). Os Itens de Configuração do projeto deverão ser identificados por rótulos contendo sufixos que identificam o projeto, a data de entrega do mesmo, a fase do ciclo de vida do projeto e o número da versão do IC. Com a finalidade de facilitar a identificação e localização dos Itens de Configurações utiliza-se o código único de identificação no formato **[SIGLA DO PROJETO]-[NOME DO DOCUMENTO]-[DATA]-VERSÃO**.
 
 Exemplo: **DETRAN-SCM-PLANO-20131201-1.00**, representando a versão 1.00 do Documento de Visão do projeto DETRAN entregue ao _CCB_ em 01/12/2013 na fase de Elicitação de Requisitos. A versão 2 deste artefato seria armazenado com o identificador **DETRAN-SCM-PLANO-20131215-2.00-R1**.
 
