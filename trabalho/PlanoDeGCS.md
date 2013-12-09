@@ -141,11 +141,12 @@ _[Descreva os padrões e procedimentos que devem ser seguidos no projeto. Crie s
 
 5. Treinamento e Recursos
 =========================
--------------------
+
 ### 5.1 Treinamento
 -------------------
-### 5.1.1 Ferramenta GIT
 
+### 5.1.1 Ferramenta GIT
+------------------------
 <p>
 Deve ser agendado um treinamento com pessoal especializado em controle de versão distruído, mais especificamente,
 GIT. A programação do treinamento deve ser dirigida pelos seguintes pontos:</p>
@@ -158,7 +159,8 @@ cliente definido na seção de <b>recursos 5.2</b>.</li>
 <li>Avaliação da absorção dos conteúdos apreendidos visando medir a eficácia do treinamento.
 </ol> 
 
-### 5.1.2 Ferramenta JIRA
+5.1.2 Ferramenta JIRA
+---------------------
 <p>
 Deve ser agendado um treinamento com pessoal especializado na Ferramenta de tracking (Controle de mudanças) JIRA. A programação do treinamento deve ser dirigida pelos seguintes pontos:</p>
 <ol>
@@ -170,9 +172,8 @@ cliente definido na seção de <b>recursos 5.2</b>, ferramenta JIRA.</li>
 <li>Avaliação da absorção dos conteúdos apreendidos visando medir a eficácia do treinamento.
 </ol> 
 
-----------------
-### 5.2 Recursos
-----------------
+5.2 Recursos
+-----------------
 Para o Gerenciamento de Configuração de Software no projeto DETRAN serão utilizadas as seguintes ferramentas:
 <ol>
 <li>Para realizar o Controle de versão será utilizado a ferramenta Open Source GIT-SCM, nas suas versões: Bash e GUI. Essa ferramenta possui suporte para diversos tipos de sistemas operacionais: Windows, Mac OS e Linux. E está disponível
@@ -185,6 +186,7 @@ em: http://git-scm.com/download. Mais informações sobre instalação em: http:
 =============================
 
 ### 6.1.2 Auditorias e o Ciclo de Vida do Projeto
+-------------------------------------------------
 <p>
 As auditorias de configuração consistem na avaliação periódica das linhas de base do projeto definidas em pontos especiais do ciclo de vida do projeto:
 <ol>
@@ -197,7 +199,7 @@ As auditorias de configuração consistem na avaliação periódica das linhas d
 <b>Fonte:</b> <i>MODELO PARA O GERENCIAMENTO DA CONFIGURAÇÃ E GERENCIAMENTO DA INFORMAÇÃO E DOCUMENTAÇÃO DO PROGRAMA ESPACIAL BRASILEIRO.</i> Albuquerque, Inaldo S. São José dos Campos, INPE 2012. Dissertação de Mestrado.
 
 ### 6.1.2 Cronograma baseado nas Baselines
-
+-------------------------------------------
 | Baseline               | Momento no ciclo de vida	     | Data |
 |----------------------------------------|-----------------------------|----------------------|
 |Baseline de Planejamento|Definição do projeto - Criação da Baseline|Na data de Fechamento - Aprovação do plano|
@@ -206,7 +208,7 @@ As auditorias de configuração consistem na avaliação periódica das linhas d
 |Build Externo|Finalização da Etapa de Implementação e/ou Entrega/implantação no cliente|Data definida no cronograma do Projeto|
 
 ### 6.1.3 Descrição do Procedimento de Documentação de Problemas
-
+----------------------------------------------------------------
 <p>
 Os problemas encontrados deverão ser reportados às partes interessadas, tais como: membros da equipe de desenvolvimento, gestores, etc, de acordo com a natureza do problema e gravidade tudo deve ser considerado. Será utilizada uma ferramenta de <i>bug tracking</i> <b>JIRA</b>, para realizar o controle de mudanças e o acompanhamento da resolução do problema encontrado.
 </p>
