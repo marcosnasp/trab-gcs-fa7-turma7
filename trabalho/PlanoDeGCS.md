@@ -199,7 +199,7 @@ Os possíveis status das mudanças estão especificado na tabela abaixo.
 | Aberto | Solicitação de mudança aberto mas ainda não foi aprovado. |
 | Em análise | Solicitação de mudança aguardando aprovação do _Comitê de Controle de Mudança_. |
 | Analisado | Aguardando desenvolvimento. |
-| Em desenvolvmento  Requisição de mudança aprovada e trabalho em andamento. |
+| Em desenvolvmento | Requisição de mudança aprovada e trabalho em andamento. |
 | Desenvolvido | Mudança solicitada implementada e em revisão para entrar na fase de testes. |
 | Em teste | Mudança solicitada em fase de testes. |
 | Teste com erro | Solicitação aguardando finalização. |
