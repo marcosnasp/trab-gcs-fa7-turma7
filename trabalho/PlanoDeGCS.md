@@ -184,9 +184,7 @@ em: http://git-scm.com/download. Mais informações sobre instalação em: http:
 6. Auditorias de Configuração
 =============================
 
--------------------------------------------------
 ### 6.1.2 Auditorias e o Ciclo de Vida do Projeto
--------------------------------------------------
 <p>
 As auditorias de configuração consistem na avaliação periódica das linhas de base do projeto definidas em pontos especiais do ciclo de vida do projeto:
 <ol>
@@ -198,9 +196,7 @@ As auditorias de configuração consistem na avaliação periódica das linhas d
 </p>
 <b>Fonte:</b> <i>MODELO PARA O GERENCIAMENTO DA CONFIGURAÇÃ E GERENCIAMENTO DA INFORMAÇÃO E DOCUMENTAÇÃO DO PROGRAMA ESPACIAL BRASILEIRO.</i> Albuquerque, Inaldo S. São José dos Campos, INPE 2012. Dissertação de Mestrado.
 
-------------------------------------------
 ### 6.1.2 Cronograma baseado nas Baselines
-------------------------------------------
 
 | Baseline               | Momento no ciclo de vida	     | Data |
 |----------------------------------------|-----------------------------|----------------------|
@@ -209,9 +205,8 @@ As auditorias de configuração consistem na avaliação periódica das linhas d
 |Baseline de Mudança|Revisão do status do projeto|Na data da aprovação|
 |Build Externo|Finalização da Etapa de Implementação e/ou Entrega/implantação no cliente|Data definida no cronograma do Projeto|
 
-----------------------------------------------------------------
 ### 6.1.3 Descrição do Procedimento de Documentação de Problemas
-----------------------------------------------------------------
+
 <p>
 Os problemas encontrados deverão ser reportados às partes interessadas, tais como: membros da equipe de desenvolvimento, gestores, etc, de acordo com a natureza do problema e gravidade tudo deve ser considerado. Será utilizada uma ferramenta de <i>bug tracking</i> <b>JIRA</b>, para realizar o controle de mudanças e o acompanhamento da resolução do problema encontrado.
 </p>
