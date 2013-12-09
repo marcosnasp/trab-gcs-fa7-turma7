@@ -134,11 +134,9 @@ _[Descreva o processo pelo qual os problemas e as mudanças são submetidos, rev
 _[Descreva a participação e os procedimentos para processar solicitações e aprovações de mudança a serem seguidos pelo CCB. Informe quem são os membros do CCB e suas responsabilidades.]_
 
 
-
 4. Padrões e Procedimentos
 ==========================
 _[Descreva os padrões e procedimentos que devem ser seguidos no projeto. Crie subseções se achar necessário, para organizá-los melhor.]_
-
 
 
 5. Treinamento e Recursos
@@ -179,11 +177,45 @@ Para o Gerenciamento de Configuração de Software no projeto DETRAN serão util
 <ol>
 <li>Para realizar o Controle de versão será utilizado a ferramenta Open Source GIT-SCM, nas suas versões: Bash e GUI. Essa ferramenta possui suporte para diversos tipos de sistemas operacionais: Windows, Mac OS e Linux. E está disponível
 em: http://git-scm.com/download. Mais informações sobre instalação em: http://git-scm.com/book/en/Getting-Started-Installing-Git.</li>
+<li>EGit - Plugin do Eclipse para o Git.</li>
 <li>Para realizar o Controle de Mudanças será utilizada a ferramenta JIRA da Atlassian.</li>
 </ol>
 
-_[Descreva as ferramentas de software, o pessoal e o treinamento necessários para implementar as atividades de CM especificadas.]_
-
 6. Auditorias de Configuração
 =============================
-_[Descreva o cronograma das auditorias de configuração e o que será verificado. Informe também como serão reportados os problemas encontrados e onde sera feito o acompanhamento dos itens corretivos.]_
+
+-------------------------------------------------
+### 6.1.2 Auditorias e o Ciclo de Vida do Projeto
+-------------------------------------------------
+<p>
+As auditorias de configuração consistem na avaliação periódica das linhas de base do projeto definidas em pontos especiais do ciclo de vida do projeto:
+<ol>
+<li>Definição do projeto <i>(design)</i></li>
+<li>Revisão do status do projeto <i>(design)</i></li>
+<li>Finalização da Etapa de Implementação do Software</li>
+<li>Entrega/Implantação do Software</li>
+</ol>
+</p>
+<b>Fonte:</b> <i>MODELO PARA O GERENCIAMENTO DA CONFIGURAÇÃ E GERENCIAMENTO DA INFORMAÇÃO E DOCUMENTAÇÃO DO PROGRAMA ESPACIAL BRASILEIRO.</i> Albuquerque, Inaldo S. São José dos Campos, INPE 2012. Dissertação de Mestrado.
+
+------------------------------------------
+### 6.1.2 Cronograma baseado nas Baselines
+------------------------------------------
+
+| Baseline               | Momento no ciclo de vida	     | Data |
+|----------------------------------------|-----------------------------|----------------------|
+|Baseline de Planejamento|Definição do projeto - Criação da Baseline|Na data de Fechamento - Aprovação do plano|
+|Baseline de Artefatos|Revisão do Status do projeto - Homologação do artefato aprovado pelo cliente|Data definida no cronograma do Projeto|
+|Baseline de Mudança|Revisão do status do projeto|Na data da aprovação|
+|Build Externo|Finalização da Etapa de Implementação e/ou Entrega/implantação no cliente|Data definida no cronograma do Projeto|
+
+----------------------------------------------------------------
+### 6.1.3 Descrição do Procedimento de Documentação de Problemas
+----------------------------------------------------------------
+<p>
+Os problemas encontrados deverão ser reportados às partes interessadas, tais como: membros da equipe de desenvolvimento, gestores, etc, de acordo com a natureza do problema e gravidade tudo deve ser considerado. Será utilizada uma ferramenta de <i>bug tracking</i> <b>JIRA</b>, para realizar o controle de mudanças e o acompanhamento da resolução do problema encontrado.
+</p>
+<p>
+Os problemas encontrados deverão ter o seu correspondente ciclo de vida definido, conforme a seção 3.2.2 Controle de mudanças. Deve-se fazer a customização do ciclo de vida da ferramenta JIRA visando a adequação a estrutura definida
+nesse documento.
+</p>
