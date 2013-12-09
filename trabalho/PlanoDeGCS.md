@@ -162,7 +162,8 @@ Para controle de mudanças, será utilizado no projeto a ferramenta Jira. Todos 
 |Servidor Jira      ||
 |----------|--------------|
 |IP|192.168.1.8|
-|Endereço|http://192.168.1.8/jira|
+|Porta|8080|
+|Endereço|http://102.168.1.8:8080/secure/Dashboard.jspa|
 |Sistema Operacional|Linux Debian|
 |Hardware| Processador Intel® Core i5 2.8 GHz, 4GB RAM, 500 HD|
 
@@ -186,10 +187,10 @@ O servidor de aplicação utilizado pelo projeto será o JBoss. Serão disponibl
 
 
 
-#### Ambiente de Desenvolvimento
+#### Configuração da Área de Trabalho
 A edição de código-fonte será feita através da IDE Eclipse. A documentação do projeto deverá ser feita utilizando a ferramenta LibreOffice salvando no formato ODF (Open Document Format). As estações de trabalho de desenvolvimento deverão ter as seguintes configurações:
 
-|Ambiente de Desenvolvimento||
+|Área de Trabalho||
 |--------------------|-----------|
 |Sistema Operacional|Linux Ubuntu|
 |Hardware | Processador Intel® Core i7 3.4GHz, 8GB RAM, 500 HD|
