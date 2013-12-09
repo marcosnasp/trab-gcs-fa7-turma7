@@ -139,7 +139,7 @@ O banco de dados utilizado no  projeto é PostgresSQL. Serão definidos três ba
 |-----------------|--------------|
 |IP|192.168.1.7|
 |Porta|5432|
-|Nome do banco|_detran_prod_|
+|Nome do banco|detran_prod |
 |Sistema Operacional|Linux Debian|
 |Hardware| Processador Intel® Xeon® Quad-Core 3.10GHz, 8GB RAM, 500 HD.|
 
