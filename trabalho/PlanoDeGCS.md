@@ -42,6 +42,9 @@ pela equipe do projeto, tais como os requisitos, casos de uso, diagramas, arquiv
 |--------------------|-------------|
 |Baseline|Conjunto de itens de configuração em um determinado momento do processo de  desenvolvimento|
 |GC|Gerente de configuração|
+|BD|Banco de dados|
+|CM|Controle de mudanças|
+|GCS|Gestão de configuração de software|
 |SCM|Sistema de controle de mudanças|
 |CM|Gerenciamento de Configuração|
 |Release| Uma versão distribuída ao cliente|
@@ -78,11 +81,12 @@ A seção 6 descreve o cronograma das auditorias de configuração e o que será
 
 2.1 Organização, Responsabilidades e Interfaces
 ------------------------------------------------
-_[Descreva quem será o responsável pela execução das diversas atividades de Gerenciamento de Configuração (CM) descritas no Processo de CM.]_
 
 |Papéis              |Equipe       |Responsabilidade        |
-|--------------------|-------------|------------------------|
-|(GC) Gerente de COnfiguração|Marcos Portela<p>Luis Renne|Escrever o plano de Gerencia de CM|
+|------ |----------------------------|-----------------------------|
+|Gerente de Configuração|- Marcos Portela|Escrever o plano de Gerencia de Configuração<br>Configurar ambiente de gerência de configuração<br>Criar Baselines|
+|CCB| - Luís Renné<br> - Elias de Oliveira|Definir os processos de controle de mudanças<br>Aprovar ou rejeitar solicitações de mudanças|
+|Desenvolvedor|- Marcos Portela<br>- Luís Renné<br>- Elias de Oliveira|Seguir os padrões e procedimentos definidos no plano de gerência de configuração|
 
 
 
@@ -90,14 +94,105 @@ _[Descreva quem será o responsável pela execução das diversas atividades de 
 
 2.2 Ferramentas, Ambiente e Infra-estrutura
 -------------------------------------------
-_[Descreva o ambiente de computação e as ferramentas de software a serem utilizadas para desempenhar as funções de CM em todo o ciclo de vida do projeto ou produto._
-_Descreva as ferramentas e os procedimentos necessários utilizados para o controle de versão dos itens de configuração gerados no ciclo de vida do projeto ou produto._
-_As questões envolvidas na configuração do ambiente de CM incluem:_
-* _tamanho previsto dos dados do produto_
-* _distribuição da equipe do produto_
-* _localização física dos servidores e clientes]_
  
+### 2.2.1 Ferramentas
+|Nome|Descrição|Versão|Licença|
+|----|---------|------|-------|
+|Git|Controle de versão distribuído|1.8.5.1|Free|
+|EGit|Plugin para integrar o Eclipse ao Git|3.1.0|Free|
+|MantisBT|Ferramenta de controle de mudanças|1.2.15|Free|
+|PostgreSQL|Servidor de Banco de Dados|9.3|Free|
+|pgAdmin|Client PostgreSQL|1.18.1|Free|
+|Eclipse|IDE para desenvolvimento Java|4.3.0|Free|
+|Java JDK| Kit de desenvolvimento Java|1.7|Free|
+|Linux Debian| Sistema Operacional|7.0 |Free|
+|Ubuntu|Sistema Operacional|13.10|Free|
+|JBoss AS|Servidor de aplicações JEE|7.1.1|Free|
+|Libre Office|Suite de escritório|4.1.3|Free|
 
+
+### 2.2.2 Ambiente e Infra-estrutura
+
+#### Banco de Dados
+O banco de dados utilizado no  projeto é PostgresSQL. Serão definidos três bancos de dados: Desenvolvimento, Homologação e Produção. Banco de Desenvolvimento é o banco utilizado pelos desenvovledores nas atividades de desenvolvimento ou testes. Banco de Homologação é o banco utilizado pelas versões do sistema a serem homologadas pelo cliente. Banco de Produção
+é o banco utilizado pelas versões definitivas disponibilizadas ao cliente. Os bancos de dados estarão configurados da seguinte maneira:
+
+
+|Banco de desenvolvimento|                   |
+|------------------------|-------------------|
+|IP|192.168.1.5|
+|Porta|5432|
+|Nome do banco| detran_desen |
+|Sistema Operacional|Linux Debian|
+|Hardware| Processador Intel® Core i5 2.8 GHz, 4GB RAM, 500 HD|
+ 
+|Banco de Homologação|              |
+|--------------------|--------------|
+|IP|192.168.1.6|
+|Porta|5432|
+|Nome do banco|detran_homolog|
+|Sistema Operacional|Linux Debian|
+|Hardware| Processador Intel® Core i5 2.8 GHz, 4GB RAM, 500 HD|
+
+|Banco de Produção|              |
+|-----------------|--------------|
+|IP|192.168.1.7|
+|Porta|5432|
+|Nome do banco|_detran_prod_|
+|Sistema Operacional|Linux Debian|
+|Hardware| Processador Intel® Xeon® Quad-Core 3.10GHz, 8GB RAM, 500 HD.|
+
+
+
+#### Controle de Versão
+A ferramenta de controle de versão utilizada no projeto será o GIT, uma ferramenta de controle de versão distribuído. Também será usado o serviço GitHub para hospedar o repositório remoto do projeto. Este repositório deverá ser privado. O custo com o serviço de hospedagem do repositório é de $7.00 por mês. Os desenvolvedores da equipe deverão criar um repositório local que deverá ser um "_clone_" do repositório remoto em sua estação de desenvolvimento.
+
+
+|Repositorio Remoto |                                        |      
+|-------------------|----------------------------------------|
+|Endereço           | https://github.com/detran/projetodetran|
+
+
+
+####Controle de Mudanças
+Para controle de mudanças, será utilizado no projeto a ferramenta de bug tracking MantisBT. Todos os membros da equipe do projeto deverão ter um usuário para acesso, assim como os clientes que irão solicitar as mudanças. 
+
+
+|Servidor MantisBT      ||
+|----------|--------------|
+|IP|192.168.1.8|
+|Endereço|http://192.168.1.8/mantis|
+|Sistema Operacional|Linux Debian|
+|Hardware| Processador Intel® Core i5 2.8 GHz, 4GB RAM, 500 HD|
+
+#### Servidores de Aplicação 
+O servidor de aplicação utilizado pelo projeto será o JBoss. Serão disponiblizados dois servidores de aplicação, Homologação, no qual serão implantadas as versões a serem homologadas pelo cliente, e Produção, onde serão implantadas as versões finais a serem disponibilizadas ao  cliente. Os desenvolvedores também terão um servidor JBoss rodando localmente em suas estações de desenvolvimento. 
+
+|Servidor JBoss de Homologação|              |
+|-----------------------------|--------------|
+|IP|192.168.1.9|
+|Porta|8080|
+|Sistema Operacional|Linux Debian|
+|Hardware| Processador Intel® Core i5 2.8 GHz, 4GB RAM, 500 HD|
+
+|Servidor JBoss de Produção|              |
+|--------------------------|--------------|
+|IP|192.168.1.10|
+|Porta|8080|
+|Sistema Operacional|Linux Debian|
+|Hardware| Processador Intel® Xeon® Quad-Core 3.10GHz, 8GB RAM, 500 HD.|
+
+
+
+
+#### Ambiente de Desenvolvimento
+A edição de código-fonte será feita através da IDE Eclipse. A documentação do projeto deverá ser feita utilizando a ferramenta LibreOffice salvando no formato ODF (Open Document Format). As estações de trabalho de desenvolvimento deverão ter as seguintes configurações:
+
+|Ambiente de Desenvolvimento||
+|--------------------|-----------|
+|Sistema Operacional|Linux Ubuntu|
+|Hardware | Processador Intel® Core i7 3.4GHz, 8GB RAM, 500 HD|
+|Softwares| Git, Eclipse + EGit, pgAdmin, Java JDK, JBoss, Libre Office     | 
 
 3. O Programa de Gerenciamento de Configuração
 ==============================================
