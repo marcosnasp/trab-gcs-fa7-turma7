@@ -143,10 +143,10 @@ _[Descreva os padrões e procedimentos que devem ser seguidos no projeto. Crie s
 =========================
 
 ### 5.1 Treinamento
--------------------
+
 
 ### 5.1.1 Ferramenta GIT
-------------------------
+
 <p>
 Deve ser agendado um treinamento com pessoal especializado em controle de versão distruído, mais especificamente,
 GIT. A programação do treinamento deve ser dirigida pelos seguintes pontos:</p>
@@ -159,8 +159,7 @@ cliente definido na seção de <b>recursos 5.2</b>.</li>
 <li>Avaliação da absorção dos conteúdos apreendidos visando medir a eficácia do treinamento.
 </ol> 
 
-5.1.2 Ferramenta JIRA
----------------------
+### 5.1.2 Ferramenta JIRA
 <p>
 Deve ser agendado um treinamento com pessoal especializado na Ferramenta de tracking (Controle de mudanças) JIRA. A programação do treinamento deve ser dirigida pelos seguintes pontos:</p>
 <ol>
@@ -172,8 +171,8 @@ cliente definido na seção de <b>recursos 5.2</b>, ferramenta JIRA.</li>
 <li>Avaliação da absorção dos conteúdos apreendidos visando medir a eficácia do treinamento.
 </ol> 
 
-5.2 Recursos
------------------
+### 5.2 Recursos
+
 Para o Gerenciamento de Configuração de Software no projeto DETRAN serão utilizadas as seguintes ferramentas:
 <ol>
 <li>Para realizar o Controle de versão será utilizado a ferramenta Open Source GIT-SCM, nas suas versões: Bash e GUI. Essa ferramenta possui suporte para diversos tipos de sistemas operacionais: Windows, Mac OS e Linux. E está disponível
